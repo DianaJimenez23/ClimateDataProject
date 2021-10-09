@@ -16,9 +16,18 @@ library(lattice)
 library(caret)
 library(readr)
 library(tidyverse)
-ClimateData <- read_csv("ClimateData.csv")
-View(ClimateData)
+library(janitor)
+climateData <- read_csv("ClimateData.csv")
+climateData <- clean_names(climateData)
+View(climateData)
 
+```
+
+```{r}
+#separating the green resources column into 5 columns 
+climateData <- climateData %>% 
+  separate(green_power_resources, into = c("energy1", "energy2", "energy3", "energy4", "energy5"), sep = ",")
+View(climateData)
 ```
 
 
