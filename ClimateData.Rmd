@@ -30,8 +30,14 @@ climateData <- climateData %>%
 View(climateData)
 ```
 ```{r}
-climateData$wind <- apply(climateData, 1, function(x)as.integer(any(grep('Wind|Various',x))))
-climateData$solar <- apply(climateData, 1, function(x)as.integer(any(grep('Solar|Various',x))))
+climateData$wind <- apply(climateData, 1, function(x)as.integer(any(grep('Wind',x))))
+climateData$solar <- apply(climateData, 1, function(x)as.integer(any(grep('Solar',x))))
+climateData$Biomas <- apply(climateData, 1, function(x)as.integer(any(grep('Biomas',x))))
+climateData$Biogas <- apply(climateData, 1, function(x)as.integer(any(grep('Biogas',x))))
+climateData$SmallHydro <- apply(climateData, 1, function(x)as.integer(any(grep('Small-hydro',x))))
+climateData$Geothermal <- apply(climateData, 1, function(x)as.integer(any(grep('Geothermal',x))))
+climateData$Various <- apply(climateData, 1, function(x)as.integer(any(grep('Various',x))))
+
 climateData
 
 
