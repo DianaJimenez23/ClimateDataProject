@@ -31,8 +31,8 @@ View(climateData)
 ```
 ```{r}
 climateData$wind <- apply(climateData, 1, function(x)as.integer(any(grep('Wind|Various',x))))
-climateData$solar <- apply(climateData, 1, function(x)as.integer(any(grep('Solar|various',x))))
-
+climateData$solar <- apply(climateData, 1, function(x)as.integer(any(grep('Solar|Various',x))))
+climateData
 
 
 ```
