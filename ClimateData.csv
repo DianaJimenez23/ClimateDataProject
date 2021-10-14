@@ -1,422 +1,421 @@
-College Name,Month/Year Collected,Annual Green Power Usage (kWh),GP% Total Energy Use,Green Power Resources,College State
-Â University of California,Jul-21,480801183,46,Various,CA
-Arizona State University,Jul-21,292135945,87,"Solar, Wind",AZ
-Columbia University,Jul-21,232109000,100,Various,NY
-"University at Buffalo, the State University of New York",Jul-21,216403405,102,"Solar, Wind",NY
-Boston University,Jul-21,205000000,100,Wind,MA
-Stanford University,Jul-21,186275157,69,Various,CA
-University of Maryland,Jul-21,171274825,68,"Small-hydro, Solar, Wind",MD
-Georgetown University,Jul-21,152404000,127,Wind,DC
-University of Utah,Jul-21,129873801,43,"Geothermal, Solar",UT
-Carnegie Mellon University,Jul-21,125005846,111,"Solar, Wind",PA
-Saint Louis University,Jul-21,125000000,105,Wind,MO
-University of Oklahoma,Jul-21,122065000,72,Wind,OK
-Northeastern University,Jul-21,106000000,100,Wind,MA
-Northwestern University,Jul-21,100197017,40,"Solar, Wind",IL
-The Ohio State University,Jul-21,99742483,17,Wind,OH
-Oklahoma State University,Jul-21,88769890,67,Wind,OK
-University of North Texas,Jul-21,80324884,74,"Solar, Wind",TX
-George Washington University,Jul-21,77797575,57,"Biomass, Solar",DC
-University of Missouri,Jul-21,75528949,32,"Biomass, Solar, Wind",MO
-Ohio University,Jul-21,69670685,73,"Solar, Wind",OH
-Rochester Institute of Technology,Jul-21,69543062,97,Various,NY
-University of Minnesota,Jul-21,61519736,16,"Solar, Wind",MN
-University of Virginia,Jul-21,61461216,18,Solar,VA
-University of Vermont,Jul-21,59759945,101,"Biogas, Solar, Wind",VT
-Tarrant County College District,Jul-21,57130346,100,"Solar, Wind",TX
-Southern Illinois University Edwardsville,Jul-21,55957182,100,Wind,IL
-Temple University,Jul-21,48924000,27,Various,PA
-City Colleges of Chicago,Jul-21,46544696,100,Wind,IL
-University of Wisconsin,Jul-21,41776175,10,"Solar, Wind",WI
-American University,Jul-21,40799344,74,Various,DC
-University of California,Apr-21,328380213,30,"Biogas, Biomass, Solar, Wind",CA
-Arizona State University,Apr-21,292135945,87,"Solar, Wind",AZ
-Columbia University,Apr-21,232109000,100,Various,NY
-"University at Buffalo, the State University of New York",Apr-21,216403405,102,"Solar, Wind",NY
-Boston University,Apr-21,205000000,100,Wind,MA
-Stanford University,Apr-21,186275157,69,Various,CA
-University of Maryland,Apr-21,171274825,68,"Small-hydro, Solar, Wind",MD
-Georgetown University,Apr-21,152404000,127,Wind,DC
-University of Utah,Apr-21,148673985,49,"Geothermal, Solar",UT
-Carnegie Mellon University,Apr-21,125005846,111,"Solar, Wind",PA
-University of Oklahoma,Apr-21,125000000,105,Wind,OK
-Saint Louis University,Apr-21,122065000,72,Wind,MO
-Northeastern University,Apr-21,106000000,100,Wind,MA
-Northwestern University,Apr-21,100197017,40,"Solar, Wind",IL
-The Ohio State University,Apr-21,99742483,17,Wind,OH
-Oklahoma State University,Apr-21,88769890,67,Wind,OK
-University of North Texas,Apr-21,80324884,74,"Solar, Wind",TX
-George Washington University,Apr-21,77797575,57,"Biomass, Solar",DC
-University of Missouri,Apr-21,75528949,32,"Biomass, Solar, Wind",MO
-Ohio University,Apr-21,69670685,73,"Solar, Wind",OH
-Rochester Institute of Technology,Apr-21,69543062,97,Various,NY
-University of Minnesota,Apr-21,61519736,16,"Solar, Wind",MN
-University of Virginia,Apr-21,61461216,18,Solar,VA
-University of Vermont,Apr-21,59759945,101,"Biogas, Solar, Wind",VT
-Southern Illinois University Edwardsville,Apr-21,55957182,100,Wind,IL
-City Colleges of Chicago,Apr-21,54429677,100,Wind,IL
-Temple University,Apr-21,48924000,27,Various,PA
-Drexel University,Apr-21,43913000,52,"Solar, Wind",PA
-American University,Apr-21,40799344,74,Various,DC
-Syracuse University,Apr-21,40250000,37,Wind,NY
-American University,Jan-21,40799344,74,Various,DC
-University of California,Jan-21,328380213,30,"Biogas, Biomass, Solar, Wind",CA
-Arizona State University,Jan-21,292135945,87,"Solar, Wind",AZ
-Columbia University,Jan-21,277892000,100,Various,NY
-"University at Buffalo, the State University of New York",Jan-21,227985303,100,"Biomass, Solar",NY
-Boston University,Jan-21,205000000,100,Wind,MD
-University of Maryland,Jan-21,204194825,70,"Small-hydro, Solar, Wind",MD
-Stanford University,Jan-21,190930395,67,Various,CA
-Georgetown University,Jan-21,152404000,127,Wind,DC
-University of Utah,Jan-21,148673985,49,Geothermal,UT
-Carnegie Mellon University,Jan-21,134008880,105,"Solar, Wind",PA
-University of Oklahoma,Jan-21,132336000,70,Wind,OK
-Saint Louis University,Jan-21,125000000,105,Wind,MO
-Northwestern University,Jan-21,100202000,38,"Solar, Wind",IL
-The Ohio State University,Jan-21,99742483,17,Wind,OH
-Oklahoma State University,Jan-21,88769890,67,Wind,OK
-University of North Texas,Jan-21,80331867,67,"Solar, Wind",TX
-University of Minnesota,Jan-21,75528949,32,"Biomass, Solar, Wind",MN
-George Washington University,Jan-21,73464846,50,Solar,DC
-Rochester Institute of Technology,Jan-21,70711082,92,"Solar, Wind",NY
-University of New Hampshire,Jan-21,69871000,100,Wind,NH
-Colorado State University,Jan-21,63562340,37,Various,CO
-University of Virginia,Jan-21,61461216,18,Solar,VA
-University of Vermont,Jan-21,59759945,101,"Biogas, Solar, Wind",VT
-University of Minnesota,Jan-21,58410288,15,Various,MN
-Southern Illinois University Edwardsville,Jan-21,55957182,100,Wind,IL
-City Colleges of Chicago,Jan-21,54429677,100,Wind,IL
-Ohio University,Jan-21,53206118,50,"Solar, Wind",OH
-"University of Tennessee, Knoxville",Jan-21,50058020,21,"Solar, Wind",TN
-Temple University,Jan-21,48924000,27,Various,PA
-Drexel University,Jan-21,43913000,52,"Solar, Wind",PA
-University of California,Oct-20,328380213,30,"Biogas, Biomass, Solar, Wind",CA
-Arizona State University,Oct-20,292135945,87,"Solar, Wind",AZ
-Columbia University,Oct-20,277892000,100,Various,NY
-"University at Buffalo, the State University of New York",Oct-20,227985303,100,"Biomass, Solar",NY
-University of Maryland,Oct-20,204194825,70,"Small-hydro, Solar, Wind",MD
-Stanford University,Oct-20,190930395,67,Various,CA
-Georgetown University,Oct-20,159149526,130,Wind,DC
-University of Utah,Oct-20,148673985,49,"Geothermal, Solar",UT
-Carnegie Mellon University,Oct-20,134008880,105,"Solar, Wind",PA
-University of Oklahoma,Oct-20,132336000,70,Wind,OK
-Saint Louis University,Oct-20,125000000,105,Wind,MO
-Northwestern University,Oct-20,100202000,38,"Solar, Wind",IL
-The Ohio State University,Oct-20,99742483,17,"Biomass, Solar, Wind",OH
-Oklahoma State University,Oct-20,88769890,67,Solar,OK
-University of North Texas,Oct-20,80331867,67,"Solar, Wind",TX
-University of Missouri,Oct-20,75528949,32,"Biomass, Solar, Wind",MS
-George Washington University,Oct-20,73464846,50,Solar,DC
-Rochester Institute of Technology,Oct-20,70711082,92,"Solar, Wind",NY
-University of New Hampshire,Oct-20,69871000,100,Wind,NH
-Colorado State University,Oct-20,63562340,37,Various,CO
-University of Virginia,Oct-20,61461216,18,Solar,VA
-University of Vermont,Oct-20,59759945,101,"Biogas, Solar, Wind",VT
-University of Minnesota,Oct-20,58410288,15,Various,MN
-City Colleges of Chicago,Oct-20,54429677,100,Wind,IL
-American University,Oct-20,53982144,97,Various,DC
-Ohio University,Oct-20,53206118,50,"Solar, Wind",OH
-"University of Tennessee, Knoxville",Oct-20,50058020,21,"Solar, Wind",TN
-Temple University,Oct-20,48924000,25,Various,PA
-Drexel University,Oct-20,43913000,52,"Solar, Wind",PA
-University of Pittsburg,Oct-20,41049070,19,Various,PA
-University of California,Jul-20,328380213,30,"Biogas, Biomass, Solar, Wind",CA
-Arizona State University,Jul-20,292135945,87,"Solar, Wind",AZ
-Columbia University,Jul-20,270897887,100,Wind,NY
-"University at Buffalo, the State University of New York",Jul-20,227985303,100,"Biomass, Solar",NY
-University of Maryland,Jul-20,204194825,92,"Small-hydro, Solar, Wind",MD
-Stanford University,Jul-20,190930395,67,Various,CA
-Georgetown University,Jul-20,159149526,130,Wind,DC
-"University of Tennessee, Knoxville",Jul-20,158044000,67,"Solar, Wind",TN
-University of Utah,Jul-20,148673985,49,"Geothermal, Solar",UT
-Carnegie Mellon University,Jul-20,134008880,105,"Solar, Wind",PA
-University of Oklahoma,Jul-20,132336000,70,Wind,OK
-Saint Louis University,Jul-20,125000000,105,Wind,MO
-Northwestern University,Jul-20,100202000,38,"Solar, Wind",IL
-The Ohio State University,Jul-20,99742483,17,Wind,OH
-Oklahoma State University,Jul-20,82474642,60,Wind,OK
-University of Missouri,Jul-20,79114109,33,"Biomass, Solar, Wind",MS
-George Washington University,Jul-20,73464846,50,"Solar, Wind",DC
-Rochester Institute of Technology,Jul-20,70711082,92,"Solar, Wind",NY
-University of New Hampshire,Jul-20,69871000,100,Wind,NH
-Colorado State University,Jul-20,63562340,37,Various,CO
-University of Virginia,Jul-20,61461216,18,Solar,VA
-Ohio University,Jul-20,60689366,50,"Solar, Wind",OH
-University of Vermont,Jul-20,59759945,101,"Biogas, Solar, Wind",VT
-University of Minnesota,Jul-20,58410288,15,Various,MN
-Southern Illinois University Edwardsville,Jul-20,56109545,100,Wind,IL
-City Colleges of Chicago,Jul-20,54429677,100,Wind,IL
-American University,Jul-20,53982144,97,Various,DC
-Temple University,Jul-20,48924000,25,Various,PA
-Drexel University,Jul-20,43913000,52,"Solar, Wind",PA
-University of Pittsburg,Jul-20,41049070,19,Various,PA
-University of California,Apr-20,328380213,30,"Biogas, Biomass, Solar, Wind",CA
-Arizona State University,Apr-20,292135945,87,"Solar, Wind",AZ
-Columbia University,Apr-20,270897887,100,Wind,NY
-"University at Buffalo, the State University of New York",Apr-20,227985303,100,"Biomass, Solar",NY
-University of Pennsylvania,Apr-20,200000000,71,Wind,PA
-Stanford University,Apr-20,190930395,67,Various,CA
-Georgetown University,Apr-20,159149526,130,Wind,DC
-"University of Tennessee, Knoxville",Apr-20,158044000,67,"Solar, Wind",TN
-University of Utah,Apr-20,148673985,49,"Geothermal, Solar",UT
-University of Utah,Apr-20,146567825,53,Various,MD
-Carnegie Mellon University,Apr-20,134008880,105,"Solar, Wind",PA
-University of Oklahoma,Apr-20,132336000,70,Wind,OK
-Saint Louis University,Apr-20,125000000,105,Wind,MO
-University of Missouri,Apr-20,104001209,42,"Biomass, Solar, Wind",MS
-Northwestern University,Apr-20,100370800,39,"Solar, Wind",IL
-The Ohio State University,Apr-20,99742483,17,Wind,OH
-Drexel University,Apr-20,87766000,103,"Solar, Wind",PA
-Oklahoma State University,Apr-20,82474642,60,Wind,OK
-George Washington University,Apr-20,73464846,50,Solar,DC
-University of Virginia,Apr-20,70936294,21,Solar,VA
-Rochester Institute of Technology,Apr-20,70711082,92,"Solar, Wind",NY
-Ohio University,Apr-20,60689366,50,"Solar, Wind",OH
-University of Vermont,Apr-20,59759945,101,"Biogas, Solar, Wind",VT
-American University,Apr-20,59476806,107,Various,DC
-University of Minnesota,Apr-20,57800000,16,"Solar, Wind",MN
-Southern Illinois University Edwardsville,Apr-20,56109545,100,Wind,IL
-City Colleges of Chicago,Apr-20,54429677,100,Wind,IL
-University of New Hampshire,Apr-20,46469000,65,Wind,NH
-Temple University,Apr-20,44000000,21,Wind,PA
-Syracuse University,Apr-20,40250000,35,Wind,IL
-University of California,Jan-20,273347222,25,Various,CA
-Columbia University,Jan-20,270897887,100,Wind,NY
-"University at Buffalo, the State University of New York",Jan-20,224325000,100,"Biomass, Solar",NY
-University of Pennsylvania,Jan-20,200000000,71,Wind,PA
-Georgetown University,Jan-20,159149526,130,Wind,DC
-Stanford University,Jan-20,159021886,56,Solar,CA
-"University of Tennessee, Knoxville",Jan-20,158044000,67,"Solar, Wind",TN
-University of Utah,Jan-20,148673985,49,"Geothermal, Solar",UT
-University of Maryland,Jan-20,146567825,53,Various,MD
-University of Oklahoma,Jan-20,135692000,70,Wind,OK
-Carnegie Mellon University,Jan-20,132396967,100,"Solar, Wind",PA
-Saint Louis University,Jan-20,125000000,105,Wind,MO
-University of North Texas,Jan-20,107250000,100,"Solar, Wind",TX
-Arizona State University,Jan-20,105000000,30,"Solar, Wind",AZ
-University of Missouri,Jan-20,104001209,42,"Biogas, Solar, Wind",MO
-Northwestern University,Jan-20,100370800,39,"Solar, Wind",IL
-Oklahoma State University,Jan-20,93827563,67,Wind,OK
-Drexel University,Jan-20,87766000,104,"Solar, Wind",PA
-The Ohio State University,Jan-20,85505575,14,Wind,OH
-George Washington University,Jan-20,78393980,53,Solar,DC
-University of Virginia,Jan-20,70936294,21,Solar,VA
-University of Wisconsin,Jan-20,64424214,14,"Biogas, Solar, Wind",WI
-Ohio University,Jan-20,60689366,50,"Solar, Wind",OH
-American University,Jan-20,59476806,107,Various,DC
-University of Minnesota,Jan-20,57800000,16,"Solar, Wind",MN
-University of Vermont,Jan-20,57716250,96,"Biogas, Solar, Wind",VT
-Southern Illinois University Edwardsville,Jan-20,56109545,100,Wind,IL
-University of New Hampshire,Jan-20,46469000,65,Wind,NH
-Temple University,Jan-20,44000000,21,Wind,PA
-Syracuse University,Jan-20,40250000,35,Wind,NY
-University of California,Jul-19,273347222,25,Various,CA
-"University at Buffalo, the State University of New York",Jul-19,224325000,100,"Biomass, Solar",NY
-University of Pennsylvania,Jul-19,200000000,71,Wind,PA
-Stanford University,Jul-19,159626907,57,Solar,CA
-Georgetown University,Jul-19,159499000,133,Wind,DC
-"University of Tennessee, Knoxville",Jul-19,158044000,67,"Solar, Wind",TN
-University of Maryland,Jul-19,146567825,53,Various,MD
-University of Oklahoma,Jul-19,135692000,70,Wind,OK
-Carnegie Mellon University,Jul-19,132396967,100,"Solar, Wind",PA
-University of North Texas,Jul-19,107250000,100,"Solar, Wind",TX
-Arizona State University,Jul-19,105000000,30,"Solar, Wind",AZ
-University of Missouri,Jul-19,104001209,42,"Biomass, Solar, Wind",MO
-Northwestern University,Jul-19,100370800,39,"Solar, Wind",IL
-Oklahoma State University,Jul-19,93827563,67,Wind,OK
-Drexel University,Jul-19,87766000,104,"Solar, Wind",PA
-The Ohio State University,Jul-19,85505575,14,Wind,OH
-George Washington University,Jul-19,78393980,53,Solar,DC
-University of Virginia,Jul-19,70936294,21,Solar,VA
-University of Wisconsin,Jul-19,64424214,14,"Biogas, Solar, Wind",WI
-Ohio University,Jul-19,60539865,50,Solar,OH
-American University,Jul-19,59476806,107,Various,DC
-University of Minnesota,Jul-19,57800000,16,"Solar, Wind",MN
-University of Vermont,Jul-19,57716250,96,"Biogas, Solar, Wind",VT
-Southern Illinois University Edwardsville,Jul-19,56109545,100,Wind,IL
-University of New Hampshire,Jul-19,56109545,65,Wind,NH
-Temple University,Jul-19,44000000,21,Wind,PA
-Syracuse University,Jul-19,40250000,35,Wind,NY
-The Catholic University of America,Jul-19,40250000,100,Wind,DC
-University of Pittsburgh,Jul-19,32412337,15,Various,PA
-Colgate University,Jul-19,31808072,100,Various,NY
-University of California,Apr-19,273347222,25,Various,CA
-"University at Buffalo, the State University of New York",Apr-19,224325000,100,"Biomass, Solar",NY
-University of Pennsylvania,Apr-19,200000000,71,Wind,PA
-Stanford University,Apr-19,159626907,57,Solar,CA
-Georgetown University,Apr-19,159499000,133,Wind,DC
-"University of Tennessee, Knoxville",Apr-19,158044000,67,"Solar, Wind",TN
-University of Maryland,Apr-19,146567825,53,Various,MD
-University of Oklahoma,Apr-19,135692000,70,Wind,OK
-Carnegie Mellon University,Apr-19,132396967,100,"Solar, Wind",PA
-University of North Texas,Apr-19,107250000,100,"Solar, Wind",TX
-Arizona State University,Apr-19,105000000,30,"Solar, Wind",AZ
-University of Missouri,Apr-19,104001209,42,"Biomass, Solar, Wind",MO
-Northwestern University,Apr-19,100370800,39,"Solar, Wind",IL
-Oklahoma State University,Apr-19,93827563,67,Wind,OK
-Drexel University,Apr-19,87766000,104,"Solar, Wind",PA
-The Ohio State University,Apr-19,85505575,14,Wind,OH
-George Washington University,Apr-19,78393980,53,Solar,DC
-University of Virginia,Apr-19,70936294,21,Solar,VA
-University of Wisconsin,Apr-19,64424214,14,"Biogas, Solar, Wind",WI
-The City University of New York,Apr-19,64000000,14,Wind,NY
-Ohio University,Apr-19,60539865,50,"Solar, Wind",OH
-American University,Apr-19,59476806,107,Various,DC
-University of Minnesota,Apr-19,57800000,16,"Solar, Wind",MN
-University of Vermont,Apr-19,57716250,96,"Biogas, Solar, Wind",VT
-Southern Illinois University Edwardsville,Apr-19,56109545,100,Wind,IL
-University of New Hampshire,Apr-19,46469000,65,Wind,NH
-Temple University,Apr-19,44000000,21,Wind,PA
-Syracuse University,Apr-19,40250000,35,Wind,NY
-The Catholic University of America,Apr-19,37881775,100,Wind,DC
-University of Pittsburgh,Apr-19,32412337,15,Various,PA
-"University of Tennessee, Knoxville",Feb-19,250070000,94,"Solar, Wind",TN
-"University at Buffalo, the State University of New York",Feb-19,219284258,100,"Biomass, Solar",NY
-University of Pennsylvania,Feb-19,200000000,71,Wind,PA
-University of California,Feb-19,182762683,15,"Biogas, Solar, Wind",CA
-Stanford University,Feb-19,159626907,57,Solar,CA
-Georgetown University,Feb-19,159499000,133,Wind,DC
-Carnegie Mellon University,Feb-19,126281076,100,"Solar, WInd",PA
-University of Oklahoma,Feb-19,124573400,67,Wind,OK
-University of North Texas,Feb-19,107250000,100,"Solar, Wind",TX
-The Ohio State University,Feb-19,105651613,18,Wind,OH
-University of Missouri,Feb-19,104001209,42,"Biomass, Solar, Wind",MO
-Northwestern University,Feb-19,100370800,39,"Solar, WInd",IL
-Oklahoma State University,Feb-19,97484877,72,Wind,OK
-University of maryland,Feb-19,96927825,34,"Biogas, Small Hydro, Solar, Wind",MD
-Drexel University,Feb-19,87766000,104,"Solar, wind",PA
-George Washington University,Feb-19,78393980,53,solar,DC
-Arizona State University,Feb-19,73900000,22,"Biogas, Biomass, Solar",AZ
-University of Wisconsin,Feb-19,72168457,16,"Biogas, Solar, Wind",WI
-University of Virginia,Feb-19,70936294,21,Solar,VA
-The City University of New York,Feb-19,64000000,14,Wind,NY
-Ohio University,Feb-19,60539865,50,"Solar, Wind",OH
-American University,Feb-19,59476806,107,Various,DC
-Southern Illinois University Edwardsville,Feb-19,57881742,100,Wind,IL
-University of Minnesota,Feb-19,57800000,16,"Solar, Wind",MN
-University of Vermont,Feb-19,57716250,96,"Biogas, Solar, Wind",VT
-Temple University,Feb-19,55102500,25,Wind,PA
-University of New Hampshire,Feb-19,46469000,65,Wind,NH
-Syracuse University,Feb-19,40250000,35,Wind,NY
-The Catholic University of America,Feb-19,37881775,100,Wind,DC
-University of Pittsburgh,Feb-19,32412337,15,Various,PA
-"University of Tennesee, Knoxville",Oct-18,250070000,94,"Solar, Wind",TN
-"University at Buffalo, The State University of New York",Oct-18,219284258,100,"Biomass, Solar",NY
-University of Pennsylvania,Oct-18,200000000,71,Wind,PA
-University of California,Oct-18,182762683,15,"Biogas, Solar, Wind",CA
-Georgetown University,Oct-18,159499000,133,Wind,DC
-Stanford University,Oct-18,157734220,56,Solar,CA
-Carnegie-Mellon University,Oct-18,126281076,100,"Solar, Wind",PA
-University of Oklahoma,Oct-18,124573400,67,Wind,OK
-University of North Texas,Oct-18,107250000,100,"Solar, Wind",TX
-The Ohio State University,Oct-18,105651613,18,Wind,OH
-University of Missouri,Oct-18,104001209,42,"Biomass, Solar, Wind",MO
-Northwestern University,Oct-18,100370800,39,"Solar, Wind",IL
-Oklahoma State University,Oct-18,97484877,72,Wind,OK
-University of Maryland,Oct-18,96927825,34,"Biogas, Small Hydro, Solar, Wind",MD
-Drexel University,Oct-18,87766000,104,"Solar, Wind",PA
-George Washington University,Oct-18,79501035,65,Solar,DC
-University of South Florida,Oct-18,78654500,40,Wind,FL
-Arizona State University,Oct-18,73900000,22,"Biogas, Biomass, Solar",AZ
-University of Wisconsin,Oct-18,72168457,16,"Biogas, Solar, Wind",WI
-The City University of New York,Oct-18,64000000,14,Wind,NY
-Ohio University,Oct-18,60539865,50,"Solar, Wind",OH
-Southern Illinois University Edwardsville,Oct-18,57881742,100,Wind,IL
-University of Minnesota,Oct-18,57800000,16,"Solar, Wind",MN
-University of Vermont,Oct-18,57716250,96,"Biogas, Solar, Wind",VT
-American University,Oct-18,56554441,103,Various,DC
-Temple University,Oct-18,55102500,25,Wind,PA
-University of New Hampshire,Oct-18,46469000,65,Wind,NH
-Syracuse University,Oct-18,40250000,35,Wind,NY
-The Catholic University of America,Oct-18,37881775,100,Wind,DC
-University of Illinois at Urbana-Champaign,Oct-18,30533994,7,"Solar, Wind",IL
-"University of Tennesee, Knoxville",18-Jul,"250,070,000",94,"Solar, Wind",TN
-"University at Buffalo, the State university of New York",18-Jul,"219,284,258",100,"Biomass, Solar",NY
-University of Pennsylvania,18-Jul,"200,000,000",60,Wind,PA
-University of California,18-Jul,"182,762,683",15,"Biogas, Solar, Wind",CA
-Georgetown University,18-Jul,"159,499,000",133,Wind,DC
-Stanford University,18-Jul,"157,734,220",65,Solar,CA
-Carnegie-Mellon University,18-Jul,"126,281,076",100,"Solar, Wind",PA
-University of Oklahoma,18-Jul,"124,573,400",67,Wind,OK
-University of North Texas,18-Jul,"107,250,000",100,"Solar, Wind",TX
-The Ohio State University,18-Jul,"105,651,613",18,Wind,OH
-Northwestern University,18-Jul,"100,370,800",39,"Solar, Wind",IL
-University of Missouri,18-Jul,"97,892,973",37,"Biomass, Solar, Wind",MO
-Oklahoma State University,18-Jul,"97,484,877",72,Wind,OK
-University of Maryland,18-Jul,"96,927,825",34,"Biogas, Small Hydro, Solar, Wind",MD
-Drexel University,18-Jul,"87,766,000",104,"Solar, Wind",PA
-George Washington University,18-Jul,"79,501,035",65,Solar,DC
-University of South Florida,18-Jul,"78,654,500",40,Wind,FL
-Arizona State University,18-Jul,"73,900,000",22,"Biogas, Biomass, Solar",AZ
-University of Wisconsin,18-Jul,"72,168,457",16,"Biogas, Solar, Wind",WI
-University of New Hampshire,18-Jul,"70,739,000",100,Wind,NH
-Tarrant County College District,18-Jul,"66,255,000",70,"Biogas, Biomass, Small Hydro, Solar, Wind",TX
-The City University of New York,18-Jul,"64,000,000",14,Wind,NY
-Ohio University,18-Jul,"60,622,672",50,"Solar, Wind",OH
-University of Vermont,18-Jul,"59,533,000",99,Wind,VT
-University of Minnesota,18-Jul,"57,800,000",16,"Solar, Wind",MN
-American University,18-Jul,"56,554,441",103,Solar,DC
-Temple University,18-Jul,"55,102,500",25,Wind,PA
-Syracuse University,18-Jul,"41,000,000",35,Wind,NY
-Western Washington University,18-Jul,"40,000,000",110,Wind,WA
-The Catholic University of America,18-Jul,"39,090,882",100,Wind,DC
-"University of Tennesee, Knoxville",Apr-18,250070000,94,"Solar, Wind",TN
-SUNY University at Buffalo,Apr-18,219284258,100,"Biomass,Solar",NY
-University of Pennsylvania,Apr-18,200000000,60,Wind,PA
-University of California,Apr-18,182762683,15,"Biogas,Solar,Wind",CA
-Georgetown University,Apr-18,159499000,133,Wind,DC
-Stanford University,Apr-18,157734220,56,Solar ,CA
-Carnegie-Mellon University,Apr-18,126281076,100,"Solar,Wind",NY
-University of Oklahoma,Apr-18,124573400,67,Wind,OK
-University of North Texas,Apr-18,107250000,100,"Solar, Wind",TX
-The Ohio State University,Apr-18,105651613,18,Wind,OH
-Northwestern University,Apr-18,100370800,39,"Solar,",IL
-University of Missouri,Apr-18,97892973,37,"Biomass,Solar,Wind",MO
-Oklahoma State University,Apr-18,97484877,72,Wind,OK
-University of Maryland,Apr-18,96927825,34,"Biogas,Small Hydro,Solar,Wind",MD
-Drexel University,Apr-18,87766000,104,"Solar,Wind",PA
-George Washington University,Apr-18,79501035,65,Solar,DC
-University of South Florida,Apr-18,78654500,40,Wind,FL
-Arizona State University,Apr-18,73900000,22,"Biogas,Bimoass, Solar",AZ
-University of Wisconsin,Apr-18,72168457,16,"Biogas,Solar,Wind",WI
-University of New Hampshire,Apr-18,70739000,100,Wind,NH
-Tarrant County College District,Apr-18,66255000,70,"Biogas,Biomass,Small Hydro, Solar, Wind",TX
-The City University of New York,Apr-18,64000000,14,Wind,NY
-Ohio University,Apr-18,60622672,50,"Solar, Wind",OH
-University of Vermont,Apr-18,59533000,99,Wind,VT
-University of Minnesota,Apr-18,57800000,16,"Solar, Wind",MN
-American University,Apr-18,56554441,103,Solar,DC
-Temple University,Apr-18,55102500,25,Wind,PA
-Syracuse University,Apr-18,41000000,35,Wind,NY
-Western Washington University,Apr-18,40000000,119,Wind,WA
-The Catholic University of America,Apr-18,39090882,100,Wind,DC
-"University of Tennesee, Knoxville",Jan-18,250070000,94,"Solar,Wind",TN
-SUNY University at Buffalo,Jan-18,211977208,97,"Solar,Wind",NY
-University of Pennsylvania,Jan-18,200000000,52,Wind,PA
-Georgetown University,Jan-18,159640000,129,Wind,DC
-Stanford University,Jan-18,154190253,53,Solar,CA
-University of Oklahoma,Jan-18,128895000,69,Wind,OK
-Carnegie-Mellon University,Jan-18,128593388,100,"Solar,Wind",NY
-University of California,Jan-18,128084650,11,"Biomass, Biogas, Solar, Wind",CA
-Northwestern University,Jan-18,122014800,50,"Solar,Wind",IL
-The Ohio State University,Jan-18,107499814,17,Wind,OH
-University of North Texas,Jan-18,107250000,100,"Solar,Wind",TX
-Oklahoma State University,Jan-18,101559806,71,Wind,OK
-University of Missouri,Jan-18,97892973,37,"Biomass,Solar,Wind",MO
-University of Maryland,Jan-18,96927825,34,"Biogas,Small Hydro,Solar,Wind",MD
-Drexel University,Jan-18,96509000,100,"Solar, Wind",PA
-University of South Florida,Jan-18,78564500,40,Wind,PA
-University of New Hampshire,Jan-18,70739000,100,Wind,NH
-University of Wisconsin,Jan-18,70198709,15,"Biogas,Solar,Wind",WI
-Tarrant County College District,Jan-18,66255000,70,"Biogas,Biomass,Small Hydro, Solar, Wind",TX
-The City University of New York,Jan-18,64000000,13,Wind,NY
-University of Vermont,Jan-18,59533000,99,Wind,VT
-University of Minnesota,Jan-18,578000000,16,"Solar,Wind",MN
-Ohio University,Jan-18,57464988,50,"Solar,Wind",OH
-American University,Jan-18,55282224,100,Solar,DC
-Temple University,Jan-18,55102500,25,Wind,PA
-Texas A&M University System,Jan-18,45900000,15,Wind,TX
-Syracuse University,Jan-18,41000000,35,Wind,NY
-Western Washington University,Jan-18,40000000,119,Wind,WA
-The Catholic University of America,Jan-18,39090882,100,Wind,DC
-University of Illinois at Urbana-Champaign,Jan-18,33198656,8,"Solar, Wind",IL
+College Name,Month/Year Collected,Annual Green Power Usage (kWh),GP% Total Energy Use,Green Power Resources,College State,Rank,Lat,Long
+University of California,21-Jul,480801183,46,Various,CA,1,37.871853,-122.258423
+Arizona State University,21-Jul,292135945,87,"Solar, Wind",AZ,2,33.424564,-111.928001
+Columbia University,21-Jul,232109000,100,Various,NY,3,40.80819,-73.958305
+"University at Buffalo, the State University of New York",21-Jul,216403405,102,"Solar, Wind",NY,4,43.0004,-78.7879
+Boston University,21-Jul,205000000,100,Wind,MA,5,42.3339865,-71.1047742
+Stanford University,21-Jul,186275157,69,Various,CA,6,37.428993,-122.16986
+University of Maryland,21-Jul,171274825,68,"Small-hydro, Solar, Wind",MD,7,38.980297,-76.93312
+Georgetown University,21-Jul,152404000,127,Wind,DC,8,38.90832,-77.0713
+University of Utah,21-Jul,129873801,43,"Geothermal, Solar",UT,9,40.277779,-111.71389
+Carnegie Mellon University,21-Jul,125005846,111,"Solar, Wind",PA,10,40.444603,-79.941986
+Saint Louis University,21-Jul,125000000,105,Wind,MO,11,38.63546,-90.233826
+University of Oklahoma,21-Jul,122065000,72,Wind,OK,12,35.205894,-97.445717
+Northeastern University,21-Jul,106000000,100,Wind,MA,13,42.3398,-71.08961
+Northwestern University,21-Jul,100197017,40,"Solar, Wind",IL,14,42.05499,-87.6772
+The Ohio State University,21-Jul,99742483,17,Wind,OH,15, 39.999387,-83.02271
+Oklahoma State University,21-Jul,88769890,67,Wind,OK,16,36.121414,-97.06839
+University of North Texas,21-Jul,80324884,74,"Solar, Wind",TX,17,33.210663,-97.14733
+George Washington University,21-Jul,77797575,57,"Biomass, Solar",DC,18,38.89845,-77.04943
+University of Missouri,21-Jul,75528949,32,"Biomass, Solar, Wind",MO,19,38.951561,-92.328636
+Ohio University,21-Jul,69670685,73,"Solar, Wind",OH,20,39.32434355, -82.1014252739
+Rochester Institute of Technology,21-Jul,69543062,97,Various,NY,21,43.16103,-77.610924
+University of Minnesota,21-Jul,61519736,16,"Solar, Wind",MN,22,44.97587,-93.23449
+University of Virginia,21-Jul,61461216,18,Solar,VA,23,38.031788,-78.50434
+University of Vermont,21-Jul,59759945,101,"Biogas, Solar, Wind",VT,24,44.469288,-73.20026
+Tarrant County College District,21-Jul,57130346,100,"Solar, Wind",TX,25,32.747883,-97.32769
+Southern Illinois University Edwardsville,21-Jul,55957182,100,Wind,IL,26,38.7933,-89.9961
+Temple University,21-Jul,48924000,27,Various,PA,27,39.980225,-75.15758
+City Colleges of Chicago,21-Jul,46544696,100,Wind,IL,28,41.87813,-87.63418
+University of Wisconsin,21-Jul,41776175,10,"Solar, Wind",WI,29,43.074787,-89.403564
+American University,21-Jul,40799344,74,Various,DC,30,38.93695,-77.08947
+University of California,21-Apr,328380213,30,"Biogas, Biomass, Solar, Wind",CA,1,37.871853,-122.258423
+Arizona State University,21-Apr,292135945,87,"Solar, Wind",AZ,2,33.424564,-111.928001
+Columbia University,21-Apr,232109000,100,Various,NY,3,40.80819,-73.958305
+"University at Buffalo, the State University of New York",21-Apr,216403405,102,"Solar, Wind",NY,4,43.0004,-78.7879
+Boston University,21-Apr,205000000,100,Wind,MA,5,42.3339865,-71.1047742
+Stanford University,21-Apr,186275157,69,Various,CA,6,37.428993,-122.16986
+University of Maryland,21-Apr,171274825,68,"Small-hydro, Solar, Wind",MD,7,38.980297,-76.93312
+Georgetown University,21-Apr,152404000,127,Wind,DC,8,38.90832,-77.0713
+University of Utah,21-Apr,148673985,49,"Geothermal, Solar",UT,9,40.277779,-111.71389
+Carnegie Mellon University,21-Apr,125005846,111,"Solar, Wind",PA,10,40.444603,-79.941986
+University of Oklahoma,21-Apr,125000000,105,Wind,OK,11,35.205894,-97.445717
+Saint Louis University,21-Apr,122065000,72,Wind,MO,12,38.63546,-90.233826
+Northeastern University,21-Apr,106000000,100,Wind,MA,13,42.3398,-71.08961
+Northwestern University,21-Apr,100197017,40,"Solar, Wind",IL,14,42.05499,-87.6772
+The Ohio State University,21-Apr,99742483,17,Wind,OH,15, 39.999387,-83.02271
+Oklahoma State University,21-Apr,88769890,67,Wind,OK,16,36.121414,-97.06839
+University of North Texas,21-Apr,80324884,74,"Solar, Wind",TX,17,33.210663,-97.14733
+George Washington University,21-Apr,77797575,57,"Biomass, Solar",DC,18,38.89845,-77.04943
+University of Missouri,21-Apr,75528949,32,"Biomass, Solar, Wind",MO,19,38.951561,-92.328636
+Ohio University,21-Apr,69670685,73,"Solar, Wind",OH,20,39.32434355, -82.1014252739
+Rochester Institute of Technology,21-Apr,69543062,97,Various,NY,21,43.16103,-77.610924
+University of Minnesota,21-Apr,61519736,16,"Solar, Wind",MN,22,44.97587,-93.23449
+University of Virginia,21-Apr,61461216,18,Solar,VA,23,38.031788,-78.50434
+University of Vermont,21-Apr,59759945,101,"Biogas, Solar, Wind",VT,24,44.469288,-73.20026
+Southern Illinois University Edwardsville,21-Apr,55957182,100,Wind,IL,25,38.7933,-89.9961
+City Colleges of Chicago,21-Apr,54429677,100,Wind,IL,26,41.87813,-87.63418
+Temple University,21-Apr,48924000,27,Various,PA,27,39.980225,-75.15758
+Drexel University,21-Apr,43913000,52,"Solar, Wind",PA,28,39.95411,-75.186905
+American University,21-Apr,40799344,74,Various,DC,29,39.95411,-77.08947
+Syracuse University,21-Apr,40250000,37,Wind,NY,30,43.03762,-76.13297
+University of California,21-Jan,328380213,30,"Biogas, Biomass, Solar, Wind",CA,1,37.871853,-122.258423
+Arizona State University,21-Jan,292135945,87,"Solar, Wind",AZ,2,33.424564,-111.928001
+Columbia University,21-Jan,277892000,100,Various,NY,3,40.80819,-73.958305
+"University at Buffalo, the State University of New York",21-Jan,227985303,100,"Biomass, Solar",NY,4,43.0004,-78.7879
+Boston University,21-Jan,205000000,100,Wind,MD,5,42.3339865,-71.1047742
+University of Maryland,21-Jan,204194825,70,"Small-hydro, Solar, Wind",MD,6,38.980297,-76.93312
+Stanford University,21-Jan,190930395,67,Various,CA,7,37.428993,-122.16986
+Georgetown University,21-Jan,152404000,127,Wind,DC,8,38.90832,-77.0713
+University of Utah,21-Jan,148673985,49,Geothermal,UT,9,40.277779,-111.71389
+Carnegie Mellon University,21-Jan,134008880,105,"Solar, Wind",PA,10,40.444603,-79.941986
+University of Oklahoma,21-Jan,132336000,70,Wind,OK,11,35.205894,-97.445717
+Saint Louis University,21-Jan,125000000,105,Wind,MO,12,38.63546,-90.233826
+Northwestern University,21-Jan,100202000,38,"Solar, Wind",IL,13,42.05499,-87.6772
+The Ohio State University,21-Jan,99742483,17,Wind,OH,14, 39.999387,-83.02271
+Oklahoma State University,21-Jan,88769890,67,Wind,OK,15,36.121414,-97.06839
+University of North Texas,21-Jan,80331867,67,"Solar, Wind",TX,16,33.210663,-97.14733
+University of Minnesota,21-Jan,75528949,32,"Biomass, Solar, Wind",MN,17,44.97587,-93.23449
+George Washington University,21-Jan,73464846,50,Solar,DC,18,38.89845,-77.04943
+Rochester Institute of Technology,21-Jan,70711082,92,"Solar, Wind",NY,19,43.16103,-77.610924
+University of New Hampshire,21-Jan,69871000,100,Wind,NH,20,43.13861,-70.937706
+Colorado State University,21-Jan,63562340,37,Various,CO,21,40.57479,-105.080795
+University of Virginia,21-Jan,61461216,18,Solar,VA,22,38.031788,-78.50434
+University of Vermont,21-Jan,59759945,101,"Biogas, Solar, Wind",VT,23,44.469288,-73.20026
+University of Minnesota,21-Jan,58410288,15,Various,MN,24,44.97587,-93.23449
+Southern Illinois University Edwardsville,21-Jan,55957182,100,Wind,IL,25,38.7933,-89.9961
+City Colleges of Chicago,21-Jan,54429677,100,Wind,IL,26,41.87813,-87.63418
+Ohio University,21-Jan,53206118,50,"Solar, Wind",OH,27,39.32434355, -82.1014252739
+"University of Tennessee, Knoxville",21-Jan,50058020,21,"Solar, Wind",TN,28,35.950867,-83.930984
+Temple University,21-Jan,48924000,27,Various,PA,29,39.980225,-75.15758
+Drexel University,21-Jan,43913000,52,"Solar, Wind",PA,30,39.95411,-75.186905
+University of California,20-Oct,328380213,30,"Biogas, Biomass, Solar, Wind",CA,1,37.871853,-122.258423
+Arizona State University,20-Oct,292135945,87,"Solar, Wind",AZ,2,33.424564,-111.928001
+Columbia University,20-Oct,277892000,100,Various,NY,3,40.80819,-73.958305
+"University at Buffalo, the State University of New York",20-Oct,227985303,100,"Biomass, Solar",NY,4,43.0004,-78.7879
+University of Maryland,20-Oct,204194825,70,"Small-hydro, Solar, Wind",MD,5,38.980297,-76.93312
+Stanford University,20-Oct,190930395,67,Various,CA,6,37.428993,-122.16986
+Georgetown University,20-Oct,159149526,130,Wind,DC,7,38.90832,-77.0713
+University of Utah,20-Oct,148673985,49,"Geothermal, Solar",UT,8,40.277779,-111.71389
+Carnegie Mellon University,20-Oct,134008880,105,"Solar, Wind",PA,9,40.444603,-79.941986
+University of Oklahoma,20-Oct,132336000,70,Wind,OK,10,35.205894,-97.445717
+Saint Louis University,20-Oct,125000000,105,Wind,MO,11,38.63546,-90.233826
+Northwestern University,20-Oct,100202000,38,"Solar, Wind",IL,12,42.05499,-87.6772
+The Ohio State University,20-Oct,99742483,17,"Biomass, Solar, Wind",OH,13, 39.999387,-83.02271
+Oklahoma State University,20-Oct,88769890,67,Solar,OK,14,36.121414,-97.06839
+University of North Texas,20-Oct,80331867,67,"Solar, Wind",TX,15,33.210663,-97.14733
+University of Missouri,20-Oct,75528949,32,"Biomass, Solar, Wind",MO,16,38.951561,-92.328636
+George Washington University,20-Oct,73464846,50,Solar,DC,17,38.89845,-77.04943
+Rochester Institute of Technology,20-Oct,70711082,92,"Solar, Wind",NY,18,43.16103,-77.610924
+University of New Hampshire,20-Oct,69871000,100,Wind,NH,19,43.13861,-70.937706
+Colorado State University,20-Oct,63562340,37,Various,CO,20,40.57479,-105.080795
+University of Virginia,20-Oct,61461216,18,Solar,VA,21,38.031788,-78.50434
+University of Vermont,20-Oct,59759945,101,"Biogas, Solar, Wind",VT,22,44.469288,-73.20026
+University of Minnesota,20-Oct,58410288,15,Various,MN,23,44.97587,-93.23449
+City Colleges of Chicago,20-Oct,54429677,100,Wind,IL,24,41.87813,-87.63418
+American University,20-Oct,53982144,97,Various,DC,25,38.93695,-77.08947
+Ohio University,20-Oct,53206118,50,"Solar, Wind",OH,26,39.32434355, -82.1014252739
+"University of Tennessee, Knoxville",20-Oct,50058020,21,"Solar, Wind",TN,27,35.950867,-83.930984
+Temple University,20-Oct,48924000,25,Various,PA,28,39.980225,-75.15758
+Drexel University,20-Oct,43913000,52,"Solar, Wind",PA,29,39.95411,-75.186905
+University of Pittsburgh,20-Oct,41049070,19,Various,PA,30,40.4446,-79.9533
+University of California,20-Jul,328380213,30,"Biogas, Biomass, Solar, Wind",CA,1,37.871853,-122.258423
+Arizona State University,20-Jul,292135945,87,"Solar, Wind",AZ,2,33.424564,-111.928001
+Columbia University,20-Jul,270897887,100,Wind,NY,3,40.80819,-73.958305
+"University at Buffalo, the State University of New York",20-Jul,227985303,100,"Biomass, Solar",NY,4,43.0004,-78.7879
+University of Maryland,20-Jul,204194825,92,"Small-hydro, Solar, Wind",MD,5,38.980297,-76.93312
+Stanford University,20-Jul,190930395,67,Various,CA,6,37.428993,-122.16986
+Georgetown University,20-Jul,159149526,130,Wind,DC,7,38.90832,-77.0713
+"University of Tennessee, Knoxville",20-Jul,158044000,67,"Solar, Wind",TN,8,35.950867,-83.930984
+University of Utah,20-Jul,148673985,49,"Geothermal, Solar",UT,9,40.277779,-111.71389
+Carnegie Mellon University,20-Jul,134008880,105,"Solar, Wind",PA,10,40.444603,-79.941986
+University of Oklahoma,20-Jul,132336000,70,Wind,OK,11,35.205894,-97.445717
+Saint Louis University,20-Jul,125000000,105,Wind,MO,12,38.63546,-90.233826
+Northwestern University,20-Jul,100202000,38,"Solar, Wind",IL,13,42.05499,-87.6772
+The Ohio State University,20-Jul,99742483,17,Wind,OH,14, 39.999387,-83.02271
+Oklahoma State University,20-Jul,82474642,60,Wind,OK,15,36.121414,-97.06839
+University of Missouri,20-Jul,79114109,33,"Biomass, Solar, Wind",MO,16,38.951561,-92.328636
+George Washington University,20-Jul,73464846,50,"Solar, Wind",DC,17,38.89845,-77.04943
+Rochester Institute of Technology,20-Jul,70711082,92,"Solar, Wind",NY,18,43.16103,-77.610924
+University of New Hampshire,20-Jul,69871000,100,Wind,NH,19,43.13861,-70.937706
+Colorado State University,20-Jul,63562340,37,Various,CO,20,40.57479,-105.080795
+University of Virginia,20-Jul,61461216,18,Solar,VA,21,38.031788,-78.50434
+Ohio University,20-Jul,60689366,50,"Solar, Wind",OH,22,39.32434355, -82.1014252739
+University of Vermont,20-Jul,59759945,101,"Biogas, Solar, Wind",VT,23,44.469288,-73.20026
+University of Minnesota,20-Jul,58410288,15,Various,MN,24,44.97587,-93.23449
+Southern Illinois University Edwardsville,20-Jul,56109545,100,Wind,IL,25,38.7933,-89.9961
+City Colleges of Chicago,20-Jul,54429677,100,Wind,IL,26,41.87813,-87.63418
+American University,20-Jul,53982144,97,Various,DC,27,38.93695,-77.08947
+Temple University,20-Jul,48924000,25,Various,PA,28,39.980225,-75.15758
+Drexel University,20-Jul,43913000,52,"Solar, Wind",PA,29,39.95411,-75.186905
+University of Pittsburgh,20-Jul,41049070,19,Various,PA,30,40.4446,-79.9533
+University of California,20-Apr,328380213,30,"Biogas, Biomass, Solar, Wind",CA,1,37.871853,-122.258423
+Arizona State University,20-Apr,292135945,87,"Solar, Wind",AZ,2,33.424564,-111.928001
+Columbia University,20-Apr,270897887,100,Wind,NY,3,40.80819,-73.958305
+"University at Buffalo, the State University of New York",20-Apr,227985303,100,"Biomass, Solar",NY,4,43.0004,-78.7879
+University of Pennsylvania,20-Apr,200000000,71,Wind,PA,5,39.952892,-75.19277
+Stanford University,20-Apr,190930395,67,Various,CA,6,37.428993,-122.16986
+Georgetown University,20-Apr,159149526,130,Wind,DC,7,38.90832,-77.0713
+"University of Tennessee, Knoxville",20-Apr,158044000,67,"Solar, Wind",TN,8,35.950867,-83.930984
+University of Utah,20-Apr,148673985,49,"Geothermal, Solar",UT,9,40.277779,-111.71389
+University of Maryland,20-Apr,146567825,53,Various,MD,10,38.980297,-76.93312
+Carnegie Mellon University,20-Apr,134008880,105,"Solar, Wind",PA,11,40.444603,-79.941986
+University of Oklahoma,20-Apr,132336000,70,Wind,OK,12,35.205894,-97.445717
+Saint Louis University,20-Apr,125000000,105,Wind,MO,13,38.63546,-90.233826
+University of Missouri,20-Apr,104001209,42,"Biomass, Solar, Wind",MO,14,38.951561,-92.328636
+Northwestern University,20-Apr,100370800,39,"Solar, Wind",IL,15,42.05499,-87.6772
+The Ohio State University,20-Apr,99742483,17,Wind,OH,16, 39.999387,-83.02271
+Drexel University,20-Apr,87766000,103,"Solar, Wind",PA,17,39.95411,-75.186905
+Oklahoma State University,20-Apr,82474642,60,Wind,OK,18,36.121414,-97.06839
+George Washington University,20-Apr,73464846,50,Solar,DC,19,38.89845,-77.04943
+University of Virginia,20-Apr,70936294,21,Solar,VA,20,38.031788,-78.50434
+Rochester Institute of Technology,20-Apr,70711082,92,"Solar, Wind",NY,21,43.16103,-77.610924
+Ohio University,20-Apr,60689366,50,"Solar, Wind",OH,22,39.32434355, -82.1014252739
+University of Vermont,20-Apr,59759945,101,"Biogas, Solar, Wind",VT,23,44.469288,-73.20026
+American University,20-Apr,59476806,107,Various,DC,24,38.93695,-77.08947
+University of Minnesota,20-Apr,57800000,16,"Solar, Wind",MN,25,44.97587,-93.23449
+Southern Illinois University Edwardsville,20-Apr,56109545,100,Wind,IL,26,38.7933,-89.9961
+City Colleges of Chicago,20-Apr,54429677,100,Wind,IL,27,41.87813,-87.63418
+University of New Hampshire,20-Apr,46469000,65,Wind,NH,28,43.13861,-70.937706
+Temple University,20-Apr,44000000,21,Wind,PA,29,39.980225,-75.15758
+Syracuse University,20-Apr,40250000,35,Wind,NY,30,43.03762,-76.13297
+University of California,20-Jan,273347222,25,Various,CA,1,37.871853,-122.258423
+Columbia University,20-Jan,270897887,100,Wind,NY,2,40.80819,-73.958305
+"University at Buffalo, the State University of New York",20-Jan,224325000,100,"Biomass, Solar",NY,3,43.0004,-78.7879
+University of Pennsylvania,20-Jan,200000000,71,Wind,PA,4,39.952892,-75.19277
+Georgetown University,20-Jan,159149526,130,Wind,DC,5,38.90832,-77.0713
+Stanford University,20-Jan,159021886,56,Solar,CA,6,37.428993,-122.16986
+"University of Tennessee, Knoxville",20-Jan,158044000,67,"Solar, Wind",TN,7,35.950867,-83.930984
+University of Utah,20-Jan,148673985,49,"Geothermal, Solar",UT,8,40.277779,-111.71389
+University of Maryland,20-Jan,146567825,53,Various,MD,9,38.980297,-76.93312
+University of Oklahoma,20-Jan,135692000,70,Wind,OK,10,35.205894,-97.445717
+Carnegie Mellon University,20-Jan,132396967,100,"Solar, Wind",PA,11,40.444603,-79.941986
+Saint Louis University,20-Jan,125000000,105,Wind,MO,12,38.63546,-90.233826
+University of North Texas,20-Jan,107250000,100,"Solar, Wind",TX,13,33.210663,-97.14733
+Arizona State University,20-Jan,105000000,30,"Solar, Wind",AZ,14,33.424564,-111.928001
+University of Missouri,20-Jan,104001209,42,"Biogas, Solar, Wind",MO,15,38.951561,-92.328636
+Northwestern University,20-Jan,100370800,39,"Solar, Wind",IL,16,42.05499,-87.6772
+Oklahoma State University,20-Jan,93827563,67,Wind,OK,17,36.121414,-97.06839
+Drexel University,20-Jan,87766000,104,"Solar, Wind",PA,18,39.95411,-75.186905
+The Ohio State University,20-Jan,85505575,14,Wind,OH,19, 39.999387,-83.02271
+George Washington University,20-Jan,78393980,53,Solar,DC,20,38.89845,-77.04943
+University of Virginia,20-Jan,70936294,21,Solar,VA,21,38.031788,-78.50434
+University of Wisconsin,20-Jan,64424214,14,"Biogas, Solar, Wind",WI,22,43.074787,-89.403564
+Ohio University,20-Jan,60689366,50,"Solar, Wind",OH,23,39.32434355, -82.1014252739
+American University,20-Jan,59476806,107,Various,DC,24,38.93695,-77.08947
+University of Minnesota,20-Jan,57800000,16,"Solar, Wind",MN,25,44.97587,-93.23449
+University of Vermont,20-Jan,57716250,96,"Biogas, Solar, Wind",VT,26,44.469288,-73.20026
+Southern Illinois University Edwardsville,20-Jan,56109545,100,Wind,IL,27,38.7933,-89.9961
+University of New Hampshire,20-Jan,46469000,65,Wind,NH,28,43.13861,-70.937706
+Temple University,20-Jan,44000000,21,Wind,PA,29,39.980225,-75.15758
+Syracuse University,20-Jan,40250000,35,Wind,NY,30,43.03762,-76.13297
+University of California,19-Jul,273347222,25,Various,CA,1,37.871853,-122.258423
+"University at Buffalo, the State University of New York",19-Jul,224325000,100,"Biomass, Solar",NY,2,43.0004,-78.7879
+University of Pennsylvania,19-Jul,200000000,71,Wind,PA,3,39.952892,-75.19277
+Stanford University,19-Jul,159626907,57,Solar,CA,4,37.428993,-122.16986
+Georgetown University,19-Jul,159499000,133,Wind,DC,5,38.90832,-77.0713
+"University of Tennessee, Knoxville",19-Jul,158044000,67,"Solar, Wind",TN,6,35.950867,-83.930984
+University of Maryland,19-Jul,146567825,53,Various,MD,7,38.980297,-76.93312
+University of Oklahoma,19-Jul,135692000,70,Wind,OK,8,35.205894,-97.445717
+Carnegie Mellon University,19-Jul,132396967,100,"Solar, Wind",PA,9,40.444603,-79.941986
+University of North Texas,19-Jul,107250000,100,"Solar, Wind",TX,10,33.210663,-97.14733
+Arizona State University,19-Jul,105000000,30,"Solar, Wind",AZ,11,33.424564,-111.928001
+University of Missouri,19-Jul,104001209,42,"Biomass, Solar, Wind",MO,12,38.951561,-92.328636
+Northwestern University,19-Jul,100370800,39,"Solar, Wind",IL,13,42.05499,-87.6772
+Oklahoma State University,19-Jul,93827563,67,Wind,OK,14,36.121414,-97.06839
+Drexel University,19-Jul,87766000,104,"Solar, Wind",PA,15,39.95411,-75.186905
+The Ohio State University,19-Jul,85505575,14,Wind,OH,16, 39.999387,-83.02271
+George Washington University,19-Jul,78393980,53,Solar,DC,17,38.89845,-77.04943
+University of Virginia,19-Jul,70936294,21,Solar,VA,18,38.031788,-78.50434
+University of Wisconsin,19-Jul,64424214,14,"Biogas, Solar, Wind",WI,19,43.074787,-89.403564
+Ohio University,19-Jul,60539865,50,Solar,OH,20,39.32434355, -82.1014252739
+American University,19-Jul,59476806,107,Various,DC,21,38.93695,-77.08947
+University of Minnesota,19-Jul,57800000,16,"Solar, Wind",MN,22,44.97587,-93.23449
+University of Vermont,19-Jul,57716250,96,"Biogas, Solar, Wind",VT,23,44.469288,-73.20026
+Southern Illinois University Edwardsville,19-Jul,56109545,100,Wind,IL,24,38.7933,-89.9961
+University of New Hampshire,19-Jul,56109545,65,Wind,NH,25,43.13861,-70.937706
+Temple University,19-Jul,44000000,21,Wind,PA,26,39.980225,-75.15758
+Syracuse University,19-Jul,40250000,35,Wind,NY,27,43.03762,-76.13297
+The Catholic University of America,19-Jul,40250000,100,Wind,DC,28,38.93698,-76.998055
+University of Pittsburgh,19-Jul,32412337,15,Various,PA,29,40.4446,-79.9533
+Colgate University,19-Jul,31808072,100,Various,NY,30,42.818226,-75.53896
+University of California,19-Apr,273347222,25,Various,CA,1,37.871853,-122.258423
+"University at Buffalo, the State University of New York",19-Apr,224325000,100,"Biomass, Solar",NY,2,43.0004,-78.7879
+University of Pennsylvania,19-Apr,200000000,71,Wind,PA,3,39.952892,-75.19277
+Stanford University,19-Apr,159626907,57,Solar,CA,4,37.428993,-122.16986
+Georgetown University,19-Apr,159499000,133,Wind,DC,5,38.90832,-77.0713
+"University of Tennessee, Knoxville",19-Apr,158044000,67,"Solar, Wind",TN,6,35.950867,-83.930984
+University of Maryland,19-Apr,146567825,53,Various,MD,7,38.980297,-76.93312
+University of Oklahoma,19-Apr,135692000,70,Wind,OK,8,35.205894,-97.445717
+Carnegie Mellon University,19-Apr,132396967,100,"Solar, Wind",PA,9,40.444603,-79.941986
+University of North Texas,19-Apr,107250000,100,"Solar, Wind",TX,10,33.210663,-97.14733
+Arizona State University,19-Apr,105000000,30,"Solar, Wind",AZ,11,33.424564,-111.928001
+University of Missouri,19-Apr,104001209,42,"Biomass, Solar, Wind",MO,12,38.951561,-92.328636
+Northwestern University,19-Apr,100370800,39,"Solar, Wind",IL,13,42.05499,-87.6772
+Oklahoma State University,19-Apr,93827563,67,Wind,OK,14,36.121414,-97.06839
+Drexel University,19-Apr,87766000,104,"Solar, Wind",PA,15,39.95411,-75.186905
+The Ohio State University,19-Apr,85505575,14,Wind,OH,16, 39.999387,-83.02271
+George Washington University,19-Apr,78393980,53,Solar,DC,17,38.89845,-77.04943
+University of Virginia,19-Apr,70936294,21,Solar,VA,18,38.031788,-78.50434
+University of Wisconsin,19-Apr,64424214,14,"Biogas, Solar, Wind",WI,19,43.074787,-89.403564
+The City University of New York,19-Apr,64000000,14,Wind,NY,20,40.73,-73.997
+Ohio University,19-Apr,60539865,50,"Solar, Wind",OH,21,39.32434355, -82.1014252739
+American University,19-Apr,59476806,107,Various,DC,22,38.93695,-77.08947
+University of Minnesota,19-Apr,57800000,16,"Solar, Wind",MN,23,44.97587,-93.23449
+University of Vermont,19-Apr,57716250,96,"Biogas, Solar, Wind",VT,24,44.469288,-73.20026
+Southern Illinois University Edwardsville,19-Apr,56109545,100,Wind,IL,25,38.7933,-89.9961
+University of New Hampshire,19-Apr,46469000,65,Wind,NH,26,43.13861,-70.937706
+Temple University,19-Apr,44000000,21,Wind,PA,27,39.980225,-75.15758
+Syracuse University,19-Apr,40250000,35,Wind,NY,28,43.03762,-76.13297
+The Catholic University of America,19-Apr,37881775,100,Wind,DC,29,38.93698,-76.998055
+University of Pittsburgh,19-Apr,32412337,15,Various,PA,30,40.4446,-79.9533
+"University of Tennessee, Knoxville",19-Feb,250070000,94,"Solar, Wind",TN,1,35.950867,-83.930984
+"University at Buffalo, the State University of New York",19-Feb,219284258,100,"Biomass, Solar",NY,2,43.0004,-78.7879
+University of Pennsylvania,19-Feb,200000000,71,Wind,PA,3,39.952892,-75.19277
+University of California,19-Feb,182762683,15,"Biogas, Solar, Wind",CA,4,37.871853,-122.258423
+Stanford University,19-Feb,159626907,57,Solar,CA,5,37.428993,-122.16986
+Georgetown University,19-Feb,159499000,133,Wind,DC,6,38.90832,-77.0713
+Carnegie Mellon University,19-Feb,126281076,100,"Solar, WInd",PA,7,40.444603,-79.941986
+University of Oklahoma,19-Feb,124573400,67,Wind,OK,8,35.205894,-97.445717
+University of North Texas,19-Feb,107250000,100,"Solar, Wind",TX,9,33.210663,-97.14733
+The Ohio State University,19-Feb,105651613,18,Wind,OH,10, 39.999387,-83.02271
+University of Missouri,19-Feb,104001209,42,"Biomass, Solar, Wind",MO,11,38.951561,-92.328636
+Northwestern University,19-Feb,100370800,39,"Solar, WInd",IL,12,42.05499,-87.6772
+Oklahoma State University,19-Feb,97484877,72,Wind,OK,13,36.121414,-97.06839
+University of Maryland,19-Feb,96927825,34,"Biogas, Small Hydro, Solar, Wind",MD,14,38.980297,-76.93312
+Drexel University,19-Feb,87766000,104,"Solar, wind",PA,15,39.95411,-75.186905
+George Washington University,19-Feb,78393980,53,solar,DC,16,38.89845,-77.04943
+Arizona State University,19-Feb,73900000,22,"Biogas, Biomass, Solar",AZ,17,33.424564,-111.928001
+University of Wisconsin,19-Feb,72168457,16,"Biogas, Solar, Wind",WI,18,43.074787,-89.403564
+University of Virginia,19-Feb,70936294,21,Solar,VA,19,38.031788,-78.50434
+The City University of New York,19-Feb,64000000,14,Wind,NY,20,40.73,-73.997
+Ohio University,19-Feb,60539865,50,"Solar, Wind",OH,21,39.32434355, -82.1014252739
+American University,19-Feb,59476806,107,Various,DC,22,38.93695,-77.08947
+Southern Illinois University Edwardsville,19-Feb,57881742,100,Wind,IL,23,38.7933,-89.9961
+University of Minnesota,19-Feb,57800000,16,"Solar, Wind",MN,24,44.97587,-93.23449
+University of Vermont,19-Feb,57716250,96,"Biogas, Solar, Wind",VT,25,44.469288,-73.20026
+Temple University,19-Feb,55102500,25,Wind,PA,26,39.980225,-75.15758
+University of New Hampshire,19-Feb,46469000,65,Wind,NH,27,43.13861,-70.937706
+Syracuse University,19-Feb,40250000,35,Wind,NY,28,43.03762,-76.13297
+The Catholic University of America,19-Feb,37881775,100,Wind,DC,29,38.93698,-76.998055
+University of Pittsburgh,19-Feb,32412337,15,Various,PA,30,40.4446,-79.9533
+"University of Tennessee, Knoxville",18-Oct,250070000,94,"Solar, Wind",TN,1,35.950867,-83.930984
+"University at Buffalo, The State University of New York",18-Oct,219284258,100,"Biomass, Solar",NY,2,43.0004,-78.7879
+University of Pennsylvania,18-Oct,200000000,71,Wind,PA,3,39.952892,-75.19277
+University of California,18-Oct,182762683,15,"Biogas, Solar, Wind",CA,4,37.871853,-122.258423
+Georgetown University,18-Oct,159499000,133,Wind,DC,5,38.90832,-77.0713
+Stanford University,18-Oct,157734220,56,Solar,CA,6,37.428993,-122.16986
+Carnegie-Mellon University,18-Oct,126281076,100,"Solar, Wind",PA,7,40.444603,-79.941986
+University of Oklahoma,18-Oct,124573400,67,Wind,OK,8,35.205894,-97.445717
+University of North Texas,18-Oct,107250000,100,"Solar, Wind",TX,9,33.210663,-97.14733
+The Ohio State University,18-Oct,105651613,18,Wind,OH,10, 39.999387,-83.02271
+University of Missouri,18-Oct,104001209,42,"Biomass, Solar, Wind",MO,11,38.951561,-92.328636
+Northwestern University,18-Oct,100370800,39,"Solar, Wind",IL,12,42.05499,-87.6772
+Oklahoma State University,18-Oct,97484877,72,Wind,OK,13,36.121414,-97.06839
+University of Maryland,18-Oct,96927825,34,"Biogas, Small Hydro, Solar, Wind",MD,14,38.980297,-76.93312
+Drexel University,18-Oct,87766000,104,"Solar, Wind",PA,15,39.95411,-75.186905
+George Washington University,18-Oct,79501035,65,Solar,DC,16,38.89845,-77.04943
+University of South Florida,18-Oct,78654500,40,Wind,FL,17,28.05457,-82.412094
+Arizona State University,18-Oct,73900000,22,"Biogas, Biomass, Solar",AZ,18,33.424564,-111.928001
+University of Wisconsin,18-Oct,72168457,16,"Biogas, Solar, Wind",WI,19,43.074787,-89.403564
+The City University of New York,18-Oct,64000000,14,Wind,NY,20,40.73,-73.997
+Ohio University,18-Oct,60539865,50,"Solar, Wind",OH,21,39.32434355, -82.1014252739
+Southern Illinois University Edwardsville,18-Oct,57881742,100,Wind,IL,22,38.7933,-89.9961
+University of Minnesota,18-Oct,57800000,16,"Solar, Wind",MN,23,44.97587,-93.23449
+University of Vermont,18-Oct,57716250,96,"Biogas, Solar, Wind",VT,24,44.469288,-73.20026
+American University,18-Oct,56554441,103,Various,DC,25,38.93695,-77.08947
+Temple University,18-Oct,55102500,25,Wind,PA,26,39.980225,-75.15758
+University of New Hampshire,18-Oct,46469000,65,Wind,NH,27,43.13861,-70.937706
+Syracuse University,18-Oct,40250000,35,Wind,NY,28,43.03762,-76.13297
+The Catholic University of America,18-Oct,37881775,100,Wind,DC,29,38.93698,-76.998055
+University of Illinois at Urbana-Champaign,18-Oct,30533994,7,"Solar, Wind",IL,30,40.110558,-88.228333
+"University of Tennessee, Knoxville",18-Jul,"250,070,000",94,"Solar, Wind",TN,1,35.950867,-83.930984
+"University at Buffalo, the State university of New York",18-Jul,"219,284,258",100,"Biomass, Solar",NY,2,43.0004,-78.7879
+University of Pennsylvania,18-Jul,"200,000,000",60,Wind,PA,3,39.952892,-75.19277
+University of California,18-Jul,"182,762,683",15,"Biogas, Solar, Wind",CA,4,37.871853,-122.258423
+Georgetown University,18-Jul,"159,499,000",133,Wind,DC,5,38.90832,-77.0713
+Stanford University,18-Jul,"157,734,220",65,Solar,CA,6,37.428993,-122.16986
+Carnegie-Mellon University,18-Jul,"126,281,076",100,"Solar, Wind",PA,7,40.444603,-79.941986
+University of Oklahoma,18-Jul,"124,573,400",67,Wind,OK,8,35.205894,-97.445717
+University of North Texas,18-Jul,"107,250,000",100,"Solar, Wind",TX,9,33.210663,-97.14733
+The Ohio State University,18-Jul,"105,651,613",18,Wind,OH,10, 39.999387,-83.02271
+Northwestern University,18-Jul,"100,370,800",39,"Solar, Wind",IL,11,42.05499,-87.6772
+University of Missouri,18-Jul,"97,892,973",37,"Biomass, Solar, Wind",MO,12,38.951561,-92.328636
+Oklahoma State University,18-Jul,"97,484,877",72,Wind,OK,13,36.121414,-97.06839
+University of Maryland,18-Jul,"96,927,825",34,"Biogas, Small Hydro, Solar, Wind",MD,14,38.980297,-76.93312
+Drexel University,18-Jul,"87,766,000",104,"Solar, Wind",PA,15,39.95411,-75.186905
+George Washington University,18-Jul,"79,501,035",65,Solar,DC,16,38.89845,-77.04943
+University of South Florida,18-Jul,"78,654,500",40,Wind,FL,17,28.05457,-82.412094
+Arizona State University,18-Jul,"73,900,000",22,"Biogas, Biomass, Solar",AZ,18,33.424564,-111.928001
+University of Wisconsin,18-Jul,"72,168,457",16,"Biogas, Solar, Wind",WI,19,43.074787,-89.403564
+University of New Hampshire,18-Jul,"70,739,000",100,Wind,NH,20,43.13861,-70.937706
+Tarrant County College District,18-Jul,"66,255,000",70,"Biogas, Biomass, Small Hydro, Solar, Wind",TX,21,32.747883,-97.32769
+The City University of New York,18-Jul,"64,000,000",14,Wind,NY,22,40.73,-73.997
+Ohio University,18-Jul,"60,622,672",50,"Solar, Wind",OH,23,39.32434355, -82.1014252739
+University of Vermont,18-Jul,"59,533,000",99,Wind,VT,24,44.469288,-73.20026
+University of Minnesota,18-Jul,"57,800,000",16,"Solar, Wind",MN,25,44.97587,-93.23449
+American University,18-Jul,"56,554,441",103,Solar,DC,26,38.93695,-77.08947
+Temple University,18-Jul,"55,102,500",25,Wind,PA,27,39.980225,-75.15758
+Syracuse University,18-Jul,"41,000,000",35,Wind,NY,28,43.03762,-76.13297
+Western Washington University,18-Jul,"40,000,000",110,Wind,WA,29,48.73815,-122.48582
+The Catholic University of America,18-Jul,"39,090,882",100,Wind,DC,30,38.93698,-76.998055
+"University of Tennessee, Knoxville",18-Apr,250070000,94,"Solar, Wind",TN,1,35.950867,-83.930984
+SUNY University at Buffalo,18-Apr,219284258,100,"Biomass,Solar",NY,2,42.933832,-78.882125
+University of Pennsylvania,18-Apr,200000000,60,Wind,PA,3,39.952892,-75.19277
+University of California,18-Apr,182762683,15,"Biogas,Solar,Wind",CA,4,37.871853,-122.258423
+Georgetown University,18-Apr,159499000,133,Wind,DC,5,38.90832,-77.0713
+Stanford University,18-Apr,157734220,56,Solar ,CA,6,37.428993,-122.16986
+Carnegie-Mellon University,18-Apr,126281076,100,"Solar,Wind",NY,7,40.444603,-79.941986
+University of Oklahoma,18-Apr,124573400,67,Wind,OK,8,35.205894,-97.445717
+University of North Texas,18-Apr,107250000,100,"Solar, Wind",TX,9,33.210663,-97.14733
+The Ohio State University,18-Apr,105651613,18,Wind,OH,10, 39.999387,-83.02271
+Northwestern University,18-Apr,100370800,39,"Solar,",IL,11,42.05499,-87.6772
+University of Missouri,18-Apr,97892973,37,"Biomass,Solar,Wind",MO,12,38.951561,-92.328636
+Oklahoma State University,18-Apr,97484877,72,Wind,OK,13,36.121414,-97.06839
+University of Maryland,18-Apr,96927825,34,"Biogas,Small Hydro,Solar,Wind",MD,14,38.980297,-76.93312
+Drexel University,18-Apr,87766000,104,"Solar,Wind",PA,15,39.95411,-75.186905
+George Washington University,18-Apr,79501035,65,Solar,DC,16,38.89845,-77.04943
+University of South Florida,18-Apr,78654500,40,Wind,FL,17,28.05457,-82.412094
+Arizona State University,18-Apr,73900000,22,"Biogas,Bimoass, Solar",AZ,18,33.424564,-111.928001
+University of Wisconsin,18-Apr,72168457,16,"Biogas,Solar,Wind",WI,19,43.074787,-89.403564
+University of New Hampshire,18-Apr,70739000,100,Wind,NH,20,43.13861,-70.937706
+Tarrant County College District,18-Apr,66255000,70,"Biogas,Biomass,Small Hydro, Solar, Wind",TX,21,32.747883,-97.32769
+The City University of New York,18-Apr,64000000,14,Wind,NY,22,40.73,-73.997
+Ohio University,18-Apr,60622672,50,"Solar, Wind",OH,23,39.32434355, -82.1014252739
+University of Vermont,18-Apr,59533000,99,Wind,VT,24,44.469288,-73.20026
+University of Minnesota,18-Apr,57800000,16,"Solar, Wind",MN,25,44.97587,-93.23449
+American University,18-Apr,56554441,103,Solar,DC,26,38.93695,-77.08947
+Temple University,18-Apr,55102500,25,Wind,PA,27,39.980225,-75.15758
+Syracuse University,18-Apr,41000000,35,Wind,NY,28,43.03762,-76.13297
+Western Washington University,18-Apr,40000000,119,Wind,WA,29,48.73815,-122.48582
+The Catholic University of America,18-Apr,39090882,100,Wind,DC,30,38.93698,-76.998055
+"University of Tennessee, Knoxville",18-Jan,250070000,94,"Solar,Wind",TN,1,35.950867,-83.930984
+SUNY University at Buffalo,18-Jan,211977208,97,"Solar,Wind",NY,2,42.933832,-78.882125
+University of Pennsylvania,18-Jan,200000000,52,Wind,PA,3,39.952892,-75.19277
+Georgetown University,18-Jan,159640000,129,Wind,DC,4,38.90832,-77.0713
+Stanford University,18-Jan,154190253,53,Solar,CA,5,37.428993,-122.16986
+University of Oklahoma,18-Jan,128895000,69,Wind,OK,6,35.205894,-97.445717
+Carnegie-Mellon University,18-Jan,128593388,100,"Solar,Wind",NY,7,40.444603,-79.941986
+University of California,18-Jan,128084650,11,"Biomass, Biogas, Solar, Wind",CA,8,37.871853,-122.258423
+Northwestern University,18-Jan,122014800,50,"Solar,Wind",IL,9,42.05499,-87.6772
+The Ohio State University,18-Jan,107499814,17,Wind,OH,10, 39.999387,-83.02271
+University of North Texas,18-Jan,107250000,100,"Solar,Wind",TX,11,33.210663,-97.14733
+Oklahoma State University,18-Jan,101559806,71,Wind,OK,12,36.121414,-97.06839
+University of Missouri,18-Jan,97892973,37,"Biomass,Solar,Wind",MO,13,38.951561,-92.328636
+University of Maryland,18-Jan,96927825,34,"Biogas,Small Hydro,Solar,Wind",MD,14,38.980297,-76.93312
+Drexel University,18-Jan,96509000,100,"Solar, Wind",PA,15,39.95411,-75.186905
+University of South Florida,18-Jan,78564500,40,Wind,PA,16,28.05457,-82.412094
+University of New Hampshire,18-Jan,70739000,100,Wind,NH,17,43.13861,-70.937706
+University of Wisconsin,18-Jan,70198709,15,"Biogas,Solar,Wind",WI,18,43.074787,-89.403564
+Tarrant County College District,18-Jan,66255000,70,"Biogas,Biomass,Small Hydro, Solar, Wind",TX,19,32.747883,-97.32769
+The City University of New York,18-Jan,64000000,13,Wind,NY,20,40.73,-73.997
+University of Vermont,18-Jan,59533000,99,Wind,VT,21,44.469288,-73.20026
+University of Minnesota,18-Jan,578000000,16,"Solar,Wind",MN,22,44.97587,-93.23449
+Ohio University,18-Jan,57464988,50,"Solar,Wind",OH,23,39.32434355, -82.1014252739
+American University,18-Jan,55282224,100,Solar,DC,24,38.93695,-77.08947
+Temple University,18-Jan,55102500,25,Wind,PA,25,39.980225,-75.15758
+Texas A&M University System,18-Jan,45900000,15,Wind,TX,26,30.615011,-96.342476
+Syracuse University,18-Jan,41000000,35,Wind,NY,27,43.03762,-76.13297
+Western Washington University,18-Jan,40000000,119,Wind,WA,28,48.73815,-122.48582
+The Catholic University of America,18-Jan,39090882,100,Wind,DC,29,38.93698,-76.998055
+University of Illinois at Urbana-Champaign,18-Jan,33198656,8,"Solar, Wind",IL,30,40.110558,-88.228333
