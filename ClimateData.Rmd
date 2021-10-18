@@ -42,7 +42,15 @@ climateData <- subset(climateData, select = -4)
 View(climateData)
 
 ```
-
+```{r}
+windonly<-filter(climateData,wind=="1")
+solaronly<-filter(climateData,solar=="1")
+Biomasonly<-filter(climateData,Biomas=="1")
+Biogasonly<-filter(climateData,Biogas=="1")
+Smallhydroonly<-filter(climateData,SmallHydro=="1")
+Geothermalonly<-filter(climateData,Geothermal=="1")
+Variousonly<-filter(climateData,Various=="1")
+```
 
 ```{r}
 #finding distinct colleges in dataset
