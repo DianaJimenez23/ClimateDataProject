@@ -17,6 +17,7 @@ library(caret)
 library(readr)
 library(tidyverse)
 library(janitor)
+library(leaflet)
 climateData <- read_csv("ClimateData.csv")
 climateData <- clean_names(climateData)
 View(climateData)
@@ -52,6 +53,14 @@ View(climateData)
 library("xlsx")
 write.xlsx(unique(climateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "UNIQUE COLLEGES", append = FALSE)
 
+```
+
+
+```{r}
+#climateData %>% 
+#leaflet() %>%
+#addProviderTiles(providers$Stamen.TonerLite) %>%
+ # addMarkers(label = climateData$college_name)
 ```
 
 
