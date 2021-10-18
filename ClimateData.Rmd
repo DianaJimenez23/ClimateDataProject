@@ -39,7 +39,6 @@ climateData$Biogas <- apply(climateData, 1, function(x)as.integer(any(grep('Biog
 climateData$SmallHydro <- apply(climateData, 1, function(x)as.integer(any(grep('Small-hydro',x))))
 climateData$Geothermal <- apply(climateData, 1, function(x)as.integer(any(grep('Geothermal',x))))
 climateData$Various <- apply(climateData, 1, function(x)as.integer(any(grep('Various',x))))
-climateData <- subset(climateData, select = -4)
 View(climateData)
 
 ```
@@ -52,6 +51,8 @@ View(climateData)
 #creating excel file
 library("xlsx")
 write.xlsx(unique(climateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "UNIQUE COLLEGES", append = FALSE)
+
+
 
 ```
 
