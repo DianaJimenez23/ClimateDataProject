@@ -51,9 +51,6 @@ View(climateData)
 #creating excel file
 library("xlsx")
 write.xlsx(unique(climateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "UNIQUE COLLEGES", append = FALSE)
-
-
-
 ```
 
 
