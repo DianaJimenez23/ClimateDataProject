@@ -39,6 +39,7 @@ climateData$Biogas <- apply(climateData, 1, function(x)as.integer(any(grep('Biog
 climateData$SmallHydro <- apply(climateData, 1, function(x)as.integer(any(grep('Small-hydro',x))))
 climateData$Geothermal <- apply(climateData, 1, function(x)as.integer(any(grep('Geothermal',x))))
 climateData$Various <- apply(climateData, 1, function(x)as.integer(any(grep('Various',x))))
+climateData <- climateData[!grepl("SUNY University at Buffalo", climateData$college_name),]
 View(climateData)
 
 ```
