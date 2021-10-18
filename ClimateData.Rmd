@@ -40,9 +40,20 @@ climateData$Geothermal <- apply(climateData, 1, function(x)as.integer(any(grep('
 climateData$Various <- apply(climateData, 1, function(x)as.integer(any(grep('Various',x))))
 View(climateData)
 
+```
+
+
+```{r}
+#finding distinct colleges in dataset
+#unique(climateData[c("college_name")])
+
+#creating excel file
+library("xlsx")
+write.xlsx(unique(climateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "UNIQUE COLLEGES", append = FALSE)
 
 
 
 ```
+
 
 
