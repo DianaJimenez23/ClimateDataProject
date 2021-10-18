@@ -18,7 +18,7 @@ library(readr)
 library(tidyverse)
 library(janitor)
 library(leaflet)
-climateData <- read_csv("ClimateData.csv")
+climateData <- read_csv("climateData.csv")
 climateData <- clean_names(climateData)
 View(climateData)
 
