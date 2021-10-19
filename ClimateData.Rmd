@@ -68,6 +68,8 @@ write.xlsx(unique(climateData[c("college_name")]), file = "uniquecolleges.xlsx",
 
 #replace University at Buffalo, the State university of New York with University at Buffalo, The State University of New York
 
+#finished
+
 
 
 
