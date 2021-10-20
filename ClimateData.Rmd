@@ -63,7 +63,10 @@ write.xlsx(unique(climateData[c("college_name")]), file = "uniquecolleges.xlsx",
 ```
 
 #replace Carnegie-Mellon University with Carnegie Mellon University
-
+```{r}
+climateData$college_name <- gsub("-","",as.character(climateData$college_name))
+View(climateData)
+```
 #replace University at Buffalo, the State University of New York with University at Buffalo, The State University of New York
 
 #replace University at Buffalo, the State university of New York with University at Buffalo, The State University of New York
