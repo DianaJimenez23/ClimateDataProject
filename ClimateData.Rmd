@@ -22,6 +22,7 @@ climateData <- read_csv("climateData.csv")
 climateData <- clean_names(climateData)
 View(climateData)
 
+
 ```
 
 ```{r}
