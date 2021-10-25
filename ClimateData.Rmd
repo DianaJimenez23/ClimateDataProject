@@ -23,6 +23,7 @@ library(mapview)
 library(usmap)
 library(leafpop)
 library(maps) 
+library(leafem)
 climateData <- read_csv("climateData.csv")
 climateData <- clean_names(climateData)
 View(climateData)
@@ -72,14 +73,19 @@ write.xlsx(unique(climateData[c("college_name")]), file = "uniquecolleges.xlsx",
 
 
 ```{r}
-climate <- st_as_sf(climateData, coords = c("long", "lat"),  crs = 4326)
+climate <- st_as_sf(FullClimateData, coords = c("long", "lat"),  crs = 4326)
 mapview(
   climate, 
   map.types = "Stamen.TonerLite", 
   popup = TRUE, 
   zcol = "rank", 
-  at = c(1, 5, 10, 15, 20, 25, 30) 
-  ) 
+  at = c(1, 5, 10, 15, 20, 25, 30)
+  )   %>% 
+  addStaticLabels(label = FullClimateData$college_name,
+                  noHide = T,
+                  direction = 'top',
+                  textOnly = TRUE,
+                  textsize = "5px")
 ```
 
 
