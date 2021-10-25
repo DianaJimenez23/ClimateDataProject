@@ -21,6 +21,8 @@ library(leaflet)
 library(sf)
 library(mapview)
 library(usmap)
+library(leafpop)
+library(maps) 
 climateData <- read_csv("climateData.csv")
 climateData <- clean_names(climateData)
 View(climateData)
@@ -66,44 +68,19 @@ write.xlsx(unique(climateData[c("college_name")]), file = "uniquecolleges.xlsx",
 
 ```{r}
 climate <- st_as_sf(climateData, coords = c("long", "lat"),  crs = 4326)
-mapview(climate, map.types = "Stamen.Toner", popup = TRUE) 
-
-```
-
-```{r}
-plot_usmap(data = climateData, values = "college_name",  color = "orange", labels=FALSE) +
-  scale_fill_continuous( low = "white", high = orange,
-                         name = "rank", label = scales::comma
-  ) +
-  theme(legend.position = "right") +
-  theme(panel.background = element_rect(colour = "black"))
-
-plot_usmap(
-  regions = "states",
-  data = climateData,
-  values = "college_name"
-)
-
-```
-
-```{r}
-climateData %>% 
-  group_by(college_name) %>% 
-  ggplot(aes(x = college_name, y = rank)) +
-  geom_line(color = "black") +
-  scale_y_continuous(breaks = c(0,30)) +
-  labs(title = "Tester",
-       subtitle = "Test",
-       x = element_blank(),
-       y = element_blank()) +
-  theme(
-    axis.text.x = element_blank(),
-    axis.ticks.x = element_blank(),
-    axis.line.x = element_blank(),
-    axis.line.y = element_blank(),
-    plot.title = element_text(size = 24),
-    plot.subtitle = element_text(size = 18),
-    strip.background = element_rect(color = "white")
+mapview(
+  climate, 
+  map.types = "Stamen.TonerLite", 
+  popup = TRUE, 
+  zcol = "rank", 
+  at = c(1, 5, 10, 15, 20, 25, 30) 
   )
+```
+
+
+
+
+```{r}
+
 ```
 
