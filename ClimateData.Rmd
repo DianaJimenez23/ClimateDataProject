@@ -28,6 +28,10 @@ climateData <- clean_names(climateData)
 View(climateData)
 
 
+#new dataset
+FullClimateData <- read_csv("FullClimateDataset.csv")
+FullClimateData <- clean_names(FullClimateData)
+
 ```
 
 ```{r}
