@@ -28,20 +28,20 @@ Arizona State University,18-Apr,73900000,22,"Biogas,Bimoass, Solar",AZ,18,33.424
 Boston University,21-Jul,205000000,100,Wind,MA,5,42.3339865,-71.1047742,164988
 Boston University,21-Apr,205000000,100,Wind,MA,5,42.3339865,-71.1047742,164988
 Boston University,21-Jan,205000000,100,Wind,MD,5,42.3339865,-71.1047742,164988
-Carnegie Mellon University,21-Jul,125005846,111,"Solar, Wind",PA,10,40.444603,-79.941986,
-Carnegie Mellon University,21-Apr,125005846,111,"Solar, Wind",PA,10,40.444603,-79.941986,
-Carnegie Mellon University,21-Jan,134008880,105,"Solar, Wind",PA,10,40.444603,-79.941986,
-Carnegie Mellon University,20-Oct,134008880,105,"Solar, Wind",PA,9,40.444603,-79.941986,
-Carnegie Mellon University,20-Jul,134008880,105,"Solar, Wind",PA,10,40.444603,-79.941986,
-Carnegie Mellon University,20-Apr,134008880,105,"Solar, Wind",PA,11,40.444603,-79.941986,
-Carnegie Mellon University,20-Jan,132396967,100,"Solar, Wind",PA,11,40.444603,-79.941986,
-Carnegie Mellon University,19-Jul,132396967,100,"Solar, Wind",PA,9,40.444603,-79.941986,
-Carnegie Mellon University,19-Apr,132396967,100,"Solar, Wind",PA,9,40.444603,-79.941986,
-Carnegie Mellon University,19-Feb,126281076,100,"Solar, WInd",PA,7,40.444603,-79.941986,
-Carnegie Mellon University,18-Oct,126281076,100,"Solar, Wind",PA,7,40.444603,-79.941986,
-Carnegie Mellon University,18-Jul,"126,281,076",100,"Solar, Wind",PA,7,40.444603,-79.941986,
-Carnegie Mellon University,18-Apr,126281076,100,"Solar,Wind",NY,7,40.444603,-79.941986,
-Carnegie Mellon University,18-Jan,128593388,100,"Solar,Wind",NY,7,40.444603,-79.941986,
+Carnegie Mellon University,21-Jul,125005846,111,"Solar, Wind",PA,10,40.444603,-79.941986,211440
+Carnegie Mellon University,21-Apr,125005846,111,"Solar, Wind",PA,10,40.444603,-79.941986,211440
+Carnegie Mellon University,21-Jan,134008880,105,"Solar, Wind",PA,10,40.444603,-79.941986,211440
+Carnegie Mellon University,20-Oct,134008880,105,"Solar, Wind",PA,9,40.444603,-79.941986,211440
+Carnegie Mellon University,20-Jul,134008880,105,"Solar, Wind",PA,10,40.444603,-79.941986,211440
+Carnegie Mellon University,20-Apr,134008880,105,"Solar, Wind",PA,11,40.444603,-79.941986,211440
+Carnegie Mellon University,20-Jan,132396967,100,"Solar, Wind",PA,11,40.444603,-79.941986,211440
+Carnegie Mellon University,19-Jul,132396967,100,"Solar, Wind",PA,9,40.444603,-79.941986,211440
+Carnegie Mellon University,19-Apr,132396967,100,"Solar, Wind",PA,9,40.444603,-79.941986,211440
+Carnegie Mellon University,19-Feb,126281076,100,"Solar, WInd",PA,7,40.444603,-79.941986,211440
+Carnegie Mellon University,18-Oct,126281076,100,"Solar, Wind",PA,7,40.444603,-79.941986,211440
+Carnegie Mellon University,18-Jul,"126,281,076",100,"Solar, Wind",PA,7,40.444603,-79.941986,211440
+Carnegie Mellon University,18-Apr,126281076,100,"Solar,Wind",NY,7,40.444603,-79.941986,211440
+Carnegie Mellon University,18-Jan,128593388,100,"Solar,Wind",NY,7,40.444603,-79.941986,211440
 City Colleges of Chicago,21-Jul,46544696,100,Wind,IL,28,41.87813,-87.63418,
 City Colleges of Chicago,21-Apr,54429677,100,Wind,IL,26,41.87813,-87.63418,
 City Colleges of Chicago,21-Jan,54429677,100,Wind,IL,26,41.87813,-87.63418,
@@ -180,8 +180,6 @@ Stanford University,18-Oct,157734220,56,Solar,CA,6,37.428993,-122.16986,243744
 Stanford University,18-Jul,"157,734,220",65,Solar,CA,6,37.428993,-122.16986,243744
 Stanford University,18-Apr,157734220,56,Solar ,CA,6,37.428993,-122.16986,243744
 Stanford University,18-Jan,154190253,53,Solar,CA,5,37.428993,-122.16986,243744
-SUNY University at Buffalo,18-Apr,219284258,100,"Biomass,Solar",NY,2,42.933832,-78.882125,
-SUNY University at Buffalo,18-Jan,211977208,97,"Solar,Wind",NY,2,42.933832,-78.882125,
 Syracuse University,21-Apr,40250000,37,Wind,NY,30,43.03762,-76.13297,196413
 Syracuse University,20-Apr,40250000,35,Wind,NY,30,43.03762,-76.13297,196413
 Syracuse University,20-Jan,40250000,35,Wind,NY,30,43.03762,-76.13297,196413

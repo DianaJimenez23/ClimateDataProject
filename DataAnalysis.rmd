@@ -1,0 +1,47 @@
+---
+title: "DataAnalysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(ggplot2)
+library(stringr)
+library(readr)
+library(dplyr)
+library(corrplot)
+library(car)
+library(lattice)
+library(caret)
+library(readr)
+library(tidyverse)
+library(janitor)
+
+FullclimateData <- read_csv("FullclimateData.csv")
+FullclimateData <- clean_names(FullclimateData)
+View(climateData)
+```
+
+```{r}
+#finding distinct colleges in dataset
+#unique(climateData[c("college_name")])
+
+#creating excel file
+library("xlsx")
+write.xlsx(unique(FullclimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "UNIQUE COLLEGES", append = FALSE)
+
+```
+
+```{r}
+FullclimateData$wind <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Wind',x))))
+FullclimateData$solar <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Solar',x))))
+FullclimateData$Biomas <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Biomas',x))))
+FullclimateData$Biogas <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Biogas',x))))
+FullclimateData$SmallHydro <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Small-hydro',x))))
+FullclimateData$Geothermal <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Geothermal',x))))
+FullclimateData$Various <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Various',x))))
+View(FullclimateData)
+
+```
+
