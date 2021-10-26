@@ -20,20 +20,17 @@ library(janitor)
 
 FullclimateData <- read_csv("FullclimateData.csv")
 FullclimateData <- clean_names(FullclimateData)
-View(climateData)
 ```
 
 ```{r}
-#finding distinct colleges in dataset
-#unique(climateData[c("college_name")])
-
-#creating excel file
+#distinct colleges in dataset
 library("xlsx")
-write.xlsx(unique(FullclimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "UNIQUE COLLEGES", append = FALSE)
+write.xlsx(unique(FullclimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "uniqueColleges", append = FALSE)
 
 ```
 
 ```{r}
+#partitioning columns
 FullclimateData$wind <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Wind',x))))
 FullclimateData$solar <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Solar',x))))
 FullclimateData$Biomas <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Biomas',x))))
@@ -43,5 +40,30 @@ FullclimateData$Geothermal <- apply(FullclimateData, 1, function(x)as.integer(an
 FullclimateData$Various <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Various',x))))
 View(FullclimateData)
 
+```
+
+
+```{r}
+#scatterplots between two variables
+
+#hours of sunlight / city
+qplot(x = hours_of_sunlight_per_city, y = city_location_of_institution, data = FullclimateData)
+
+#annual green power usage / average enrollment
+qplot(x = annual_green_power_usage_k_wh, y = average_enrollment_from_2020_2018, data = FullclimateData)
+```
+
+
+```{r}
+#correlation tests
+
+#rank / average enrollment
+cor.test(FullclimateData$rank, FullclimateData$average_enrollment_from_2020_2018, method = 'spearman')
+
+#annual green power usage / average enrollment
+cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$average_enrollment_from_2020_2018, method = 'spearman')
+
+#annual green power usage / rank
+cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$rank, method = 'spearman')
 ```
 
