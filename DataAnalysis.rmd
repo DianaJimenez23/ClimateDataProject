@@ -21,7 +21,7 @@ library(lubridate)
 
 FullclimateData <- read_csv("FullclimateData.csv")
 FullclimateData <- clean_names(FullclimateData)
-<<<<<<< HEAD
+
 View(FullclimateData)
 
 FullclimateData$month_year_collected <- as.Date(FullclimateData$month_year_collected, format = "%m/%d/%Y")
@@ -36,14 +36,12 @@ FullclimateData$month_year_collected <- as.Date(FullclimateData$month_year_colle
 #creating excel file
 # library("xlsx")
 # write.xlsx(unique(FullclimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "UNIQUE COLLEGES", append = FALSE)
-=======
 ```
 
 ```{r}
 #distinct colleges in dataset
 library("xlsx")
 write.xlsx(unique(FullclimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "uniqueColleges", append = FALSE)
->>>>>>> beaf2344e1c206d457d80f61d706f80787703f7b
 
 ```
 
@@ -62,7 +60,6 @@ View(FullclimateData)
 
 
 ```{r}
-<<<<<<< HEAD
 #map of rank for the top 30 in July 2021
 climate <- st_as_sf(FullClimateData, coords = c("long", "lat"),  crs = 4326)
 mapview(
@@ -95,7 +92,12 @@ ggplot(top10, aes(x = factor(month_year_collected), y = rank, colour = college_n
 
 ggplot(top15, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
   geom_line() +labs(title = "Colleges ranked 11-15 in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
-=======
+
+```
+
+```{r}
+
+
 #scatterplots between two variables
 
 #hours of sunlight / city
@@ -117,6 +119,5 @@ cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$average_
 
 #annual green power usage / rank
 cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$rank, method = 'spearman')
->>>>>>> beaf2344e1c206d457d80f61d706f80787703f7b
 ```
 
