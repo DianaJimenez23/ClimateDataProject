@@ -82,13 +82,18 @@ mapview(
 ```
 
 ```{r}
+#Rank Anaylsis - Abby
 top5 <- filter(FullClimateData, college_name == "University of California" | college_name =="Arizona State University" | college_name == "Columbia University" | college_name =="University at Buffalo, The State University of New York" | college_name== "Boston University")
 
 top10 <- filter(FullClimateData, college_name == "Stanford University" | college_name =="University of Maryland" | college_name == "Georgetown University" | college_name =="University of Utah" | college_name== "Carnegie Mellon University")
 
 top15 <- filter(FullClimateData, college_name == "Saint Louis University" | college_name =="University of Oklahoma" | college_name == "Northeastern University" | college_name =="Northwestern University" | college_name== "The Ohio State University")
 
-top20 <- filter(FullClimateData, college_name == "Saint Louis University" | college_name =="University of Oklahoma" | college_name == "Northeastern University" | college_name =="Northwestern University" | college_name== "The Ohio State University")
+top20 <- filter(FullClimateData,  college_name =="Oklahoma State University" | college_name == "University of North Texas" | college_name == "George Washington University" | college_name =="University of Missouri" | college_name== "Ohio University")
+
+top25 <- filter(FullClimateData,  college_name =="Rochester Institute of Technology" | college_name == "University of Minnesota" | college_name == "University of Virginia" | college_name =="University of Vermont" | college_name== "Tarrant County College District")
+
+top30 <- filter(FullClimateData,  college_name =="Southern Illinois University Edwardsville" | college_name == "Temple University" | college_name == "City Colleges of Chicago" | college_name =="University of Wisconsin" | college_name== "American University")
 
 ggplot(top5, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
   geom_line() +labs(title = "Top 5 Colleges in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
@@ -98,6 +103,15 @@ ggplot(top10, aes(x = factor(month_year_collected), y = rank, colour = college_n
 
 ggplot(top15, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
   geom_line() +labs(title = "Colleges ranked 11-15 in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
+
+ggplot(top20, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 16-20 in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
+
+ggplot(top25, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 21-25 in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
+
+ggplot(top30, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 25-30 in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
 
 ```
 
