@@ -140,6 +140,9 @@ cor.test(FullClimateData$annual_green_power_usage_k_wh, FullClimateData$average_
 #annual green power usage / rank
 cor.test(FullClimateData$annual_green_power_usage_k_wh, FullClimateData$rank, method = 'spearman')
 
+ClimateTest <- lm(rank ~ hours_of_sunlight_per_city + average_enrollment_from_2020_2018 + annual_green_power_usage_k_wh + wind + solar + Biomass + Various, data = FullClimateData)
+summary(ClimateTest)
+
 ```
 
 ```{r}
