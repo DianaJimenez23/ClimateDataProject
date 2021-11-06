@@ -23,9 +23,6 @@ FullClimateData <- read_csv("FullclimateData.csv")
 FullClimateData <- clean_names(FullClimateData)
 
 
-View(FullClimateData)
-
-
 
 FullClimateData$month_year_collected <- as.Date(FullClimateData$month_year_collected, format = "%m/%d/%Y")
 
