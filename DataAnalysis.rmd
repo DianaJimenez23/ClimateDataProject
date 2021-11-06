@@ -22,13 +22,13 @@ library(lubridate)
 FullClimateData <- read_csv("FullclimateData.csv")
 FullClimateData <- clean_names(FullClimateData)
 
-<<<<<<< HEAD
-View(FullclimateData)
+
+View(FullClimateData)
 
 
-=======
+
 FullClimateData$month_year_collected <- as.Date(FullClimateData$month_year_collected, format = "%m/%d/%Y")
->>>>>>> 00dabda48d27565a58296f1c2ce01de38ed485b2
+
 
 
 ```
@@ -87,6 +87,8 @@ top5 <- filter(FullClimateData, college_name == "University of California" | col
 top10 <- filter(FullClimateData, college_name == "Stanford University" | college_name =="University of Maryland" | college_name == "Georgetown University" | college_name =="University of Utah" | college_name== "Carnegie Mellon University")
 
 top15 <- filter(FullClimateData, college_name == "Saint Louis University" | college_name =="University of Oklahoma" | college_name == "Northeastern University" | college_name =="Northwestern University" | college_name== "The Ohio State University")
+
+top20 <- filter(FullClimateData, college_name == "Saint Louis University" | college_name =="University of Oklahoma" | college_name == "Northeastern University" | college_name =="Northwestern University" | college_name== "The Ohio State University")
 
 ggplot(top5, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
   geom_line() +labs(title = "Top 5 Colleges in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
