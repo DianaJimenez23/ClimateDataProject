@@ -19,12 +19,16 @@ library(tidyverse)
 library(janitor)
 library(lubridate)
 
-FullclimateData <- read_csv("FullclimateData.csv")
-FullclimateData <- clean_names(FullclimateData)
+FullClimateData <- read_csv("FullclimateData.csv")
+FullClimateData <- clean_names(FullClimateData)
 
+<<<<<<< HEAD
 View(FullclimateData)
 
 
+=======
+FullClimateData$month_year_collected <- as.Date(FullClimateData$month_year_collected, format = "%m/%d/%Y")
+>>>>>>> 00dabda48d27565a58296f1c2ce01de38ed485b2
 
 
 ```
@@ -41,20 +45,20 @@ View(FullclimateData)
 ```{r}
 #distinct colleges in dataset
 library("xlsx")
-write.xlsx(unique(FullclimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "uniqueColleges", append = FALSE)
+write.xlsx(unique(FullClimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "uniqueColleges", append = FALSE)
 
 ```
 
 ```{r}
 #partitioning columns
-FullclimateData$wind <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Wind',x))))
-FullclimateData$solar <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Solar',x))))
-FullclimateData$Biomas <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Biomas',x))))
-FullclimateData$Biogas <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Biogas',x))))
-FullclimateData$SmallHydro <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Small-hydro',x))))
-FullclimateData$Geothermal <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Geothermal',x))))
-FullclimateData$Various <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Various',x))))
-View(FullclimateData)
+FullClimateData$wind <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Wind',x))))
+FullClimateData$solar <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Solar',x))))
+FullClimateData$Biomas <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Biomas',x))))
+FullClimateData$Biogas <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Biogas',x))))
+FullClimateData$SmallHydro <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Small-hydro',x))))
+FullClimateData$Geothermal <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Geothermal',x))))
+FullClimateData$Various <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Various',x))))
+
 
 ```
 
@@ -78,11 +82,11 @@ mapview(
 ```
 
 ```{r}
-top5 <- filter(FullclimateData, college_name == "University of California" | college_name =="Arizona State University" | college_name == "Columbia University" | college_name =="University at Buffalo, The State University of New York" | college_name== "Boston University")
+top5 <- filter(FullClimateData, college_name == "University of California" | college_name =="Arizona State University" | college_name == "Columbia University" | college_name =="University at Buffalo, The State University of New York" | college_name== "Boston University")
 
-top10 <- filter(FullclimateData, college_name == "Stanford University" | college_name =="University of Maryland" | college_name == "Georgetown University" | college_name =="University of Utah" | college_name== "Carnegie Mellon University")
+top10 <- filter(FullClimateData, college_name == "Stanford University" | college_name =="University of Maryland" | college_name == "Georgetown University" | college_name =="University of Utah" | college_name== "Carnegie Mellon University")
 
-top15 <- filter(FullclimateData, college_name == "Saint Louis University" | college_name =="University of Oklahoma" | college_name == "Northeastern University" | college_name =="Northwestern University" | college_name== "The Ohio State University")
+top15 <- filter(FullClimateData, college_name == "Saint Louis University" | college_name =="University of Oklahoma" | college_name == "Northeastern University" | college_name =="Northwestern University" | college_name== "The Ohio State University")
 
 ggplot(top5, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
   geom_line() +labs(title = "Top 5 Colleges in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
@@ -101,10 +105,10 @@ ggplot(top15, aes(x = factor(month_year_collected), y = rank, colour = college_n
 #scatterplots between two variables
 
 #hours of sunlight / city
-qplot(x = hours_of_sunlight_per_city, y = city_location_of_institution, data = FullclimateData)
+qplot(x = hours_of_sunlight_per_city, y = city_location_of_institution, data = FullClimateData)
 
 #annual green power usage / average enrollment
-qplot(x = annual_green_power_usage_k_wh, y = average_enrollment_from_2020_2018, data = FullclimateData)
+qplot(x = annual_green_power_usage_k_wh, y = average_enrollment_from_2020_2018, data = FullClimateData)
 ```
 
 
@@ -112,13 +116,14 @@ qplot(x = annual_green_power_usage_k_wh, y = average_enrollment_from_2020_2018, 
 #correlation tests
 
 #rank / average enrollment
-cor.test(FullclimateData$rank, FullclimateData$average_enrollment_from_2020_2018, method = 'spearman')
+cor.test(FullClimateData$rank, FullClimateData$average_enrollment_from_2020_2018, method = 'spearman')
 
 #annual green power usage / average enrollment
-cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$average_enrollment_from_2020_2018, method = 'spearman')
+cor.test(FullClimateData$annual_green_power_usage_k_wh, FullClimateData$average_enrollment_from_2020_2018, method = 'spearman')
 
 #annual green power usage / rank
-cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$rank, method = 'spearman')
+cor.test(FullClimateData$annual_green_power_usage_k_wh, FullClimateData$rank, method = 'spearman')
+
 ```
 
 ```{r}
