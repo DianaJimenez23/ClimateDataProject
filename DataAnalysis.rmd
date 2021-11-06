@@ -113,8 +113,6 @@ ggplot(top30, aes(x = factor(month_year_collected), y = rank, colour = college_n
 ```
 
 ```{r}
-
-
 #scatterplots between two variables
 
 #hours of sunlight / city
@@ -139,6 +137,8 @@ cor.test(FullClimateData$annual_green_power_usage_k_wh, FullClimateData$rank, me
 
 ClimateTest <- lm(rank ~ hours_of_sunlight_per_city + average_enrollment_from_2020_2018 + annual_green_power_usage_k_wh + wind + solar + Biomass + Various, data = FullClimateData)
 summary(ClimateTest)
+
+
 
 ```
 
