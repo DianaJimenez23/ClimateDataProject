@@ -24,7 +24,7 @@ FullclimateData <- clean_names(FullclimateData)
 
 View(FullclimateData)
 
-FullclimateData$month_year_collected <- as.Date(FullclimateData$month_year_collected, format = "%m/%d/%Y")
+
 
 
 ```
@@ -119,5 +119,10 @@ cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$average_
 
 #annual green power usage / rank
 cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$rank, method = 'spearman')
+```
+
+```{r}
+ggplot(top5, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Top 5 Colleges in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
 ```
 
