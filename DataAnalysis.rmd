@@ -136,9 +136,8 @@ ClimateTest2 <- lm(formula = rank ~ hours_of_sunlight_per_city + average_enrollm
 summary(ClimateTest2)
 
 #formula to that most accurately will predict the rank of a college based off of the following variables:
-rank = 
-  a = intercept 
-  b = slope
+#known as multiple linear regression
+rank = 9.491e+01 + -7.720e-08x + 5.778e+00x + -1.615e+01x + 1.959e+01x + -1.987e+01x + 1.917e+01x + -1.113e+01x +-3.005e+01x + -1.963e+01x
 
 
 
