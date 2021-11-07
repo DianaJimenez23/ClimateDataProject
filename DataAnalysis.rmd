@@ -22,28 +22,9 @@ library(lubridate)
 FullClimateData <- read_csv("FullclimateData.csv")
 FullClimateData <- clean_names(FullClimateData)
 
-
 FullClimateData$month_year_collected <- as.Date(FullClimateData$month_year_collected, format = "%m/%d/%Y")
-
-
-
 ```
 
-```{r}
-#finding distinct colleges in dataset
-#unique(climateData[c("college_name")])
-
-#creating excel file
-# library("xlsx")
-# write.xlsx(unique(FullclimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "UNIQUE COLLEGES", append = FALSE)
-```
-
-```{r}
-#distinct colleges in dataset
-library("xlsx")
-write.xlsx(unique(FullClimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "uniqueColleges", append = FALSE)
-
-```
 
 ```{r}
 #partitioning columns
@@ -113,15 +94,26 @@ ggplot(top30, aes(x = factor(month_year_collected), y = rank, colour = college_n
 ```
 
 ```{r}
-#scatterplots between two variables
-
-#hours of sunlight / city
-qplot(x = hours_of_sunlight_per_city, y = city_location_of_institution, data = FullClimateData)
-
-#annual green power usage / average enrollment
-qplot(x = annual_green_power_usage_k_wh, y = average_enrollment_from_2020_2018, data = FullClimateData)
+ggplot(top5, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Top 5 Colleges in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
 ```
 
+
+
+
+```{r}
+#distinct colleges in dataset
+library("xlsx")
+write.xlsx(unique(FullClimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "uniqueColleges", append = FALSE)
+
+```
+
+```{r}
+#distinct dates in dataset
+library("xlsx")
+write.xlsx(unique(FullClimateData[c("month_year_collected")]), file = "uniquedates.xlsx", sheetName = "uniqueDates", append = FALSE)
+
+```
 
 ```{r}
 #every variable in question
@@ -140,8 +132,4 @@ summary(ClimateTest2)
 
 ```
 
-```{r}
-ggplot(top5, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
-  geom_line() +labs(title = "Top 5 Colleges in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
-```
 
