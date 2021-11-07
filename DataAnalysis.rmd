@@ -125,7 +125,7 @@ qplot(x = annual_green_power_usage_k_wh, y = average_enrollment_from_2020_2018, 
 
 ```{r}
 #every variable in question
-ClimateTest1 <- lm(formula = rank ~ hours_of_sunlight_per_city + average_enrollment_from_2020_2018 + college_state + city_location_of_institution + annual_green_power_usage_k_wh + wind + solar + Biomas + Various, data = FullClimateData)
+ClimateTest1 <- lm(formula = rank ~ hours_of_sunlight_per_city + average_enrollment_from_2020_2018 + annual_green_power_usage_k_wh + wind + solar + Biomas + Various, data = FullClimateData)
 #summary1
 summary(ClimateTest1)
 
