@@ -23,7 +23,6 @@ FullClimateData <- read_csv("FullclimateData.csv")
 FullClimateData <- clean_names(FullClimateData)
 
 
-
 FullClimateData$month_year_collected <- as.Date(FullClimateData$month_year_collected, format = "%m/%d/%Y")
 
 
@@ -56,11 +55,12 @@ FullClimateData$SmallHydro <- apply(FullClimateData, 1, function(x)as.integer(an
 FullClimateData$Geothermal <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Geothermal',x))))
 FullClimateData$Various <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Various',x))))
 
+View(FullClimateData)
 
 ```
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 #map of rank for the top 30 in July 2021
 climate <- st_as_sf(FullClimateData, coords = c("long", "lat"),  crs = 4326)
 mapview(
@@ -124,19 +124,21 @@ qplot(x = annual_green_power_usage_k_wh, y = average_enrollment_from_2020_2018, 
 
 
 ```{r}
-#correlation tests
+#every variable in question
+ClimateTest1 <- lm(formula = rank ~ hours_of_sunlight_per_city + average_enrollment_from_2020_2018 + college_state + city_location_of_institution + annual_green_power_usage_k_wh + wind + solar + Biomas + Various, data = FullClimateData)
+#summary1
+summary(ClimateTest1)
 
-#rank / average enrollment
-cor.test(FullClimateData$rank, FullClimateData$average_enrollment_from_2020_2018, method = 'spearman')
 
-#annual green power usage / average enrollment
-cor.test(FullClimateData$annual_green_power_usage_k_wh, FullClimateData$average_enrollment_from_2020_2018, method = 'spearman')
+#most predictive model
+ClimateTest2 <- lm(formula = rank ~ hours_of_sunlight_per_city + average_enrollment_from_2020_2018 + college_state + city_location_of_institution + annual_green_power_usage_k_wh + Various, data = FullClimateData)
+#summary2
+summary(ClimateTest2)
 
-#annual green power usage / rank
-cor.test(FullClimateData$annual_green_power_usage_k_wh, FullClimateData$rank, method = 'spearman')
-
-ClimateTest <- lm(rank ~ hours_of_sunlight_per_city + average_enrollment_from_2020_2018 + annual_green_power_usage_k_wh + wind + solar + Biomass + Various, data = FullClimateData)
-summary(ClimateTest)
+#formula to that most accurately will predict the rank of a college based off of the following variables:
+rank = 
+  a = intercept 
+  b = slope
 
 
 
