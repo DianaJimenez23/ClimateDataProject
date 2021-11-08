@@ -204,24 +204,20 @@ cityStateObservations7.18 %>% count(college_state, sort = TRUE)
 
 cityStateObservations4.18 <- filter(FullClimateData, month_year_collected == as.Date("2018-4-25")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations4.18 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations4.18city <- cityStateObservations4.18 %>% count(city_location_of_institution, sort = TRUE)
 cityStateObservations4.18 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations1.18 <- filter(FullClimateData, month_year_collected == as.Date("2018-1-22")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations1.18 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations1.18 %>% count(college_state, sort = TRUE)
+cityStateObservations1.18city <- cityStateObservations1.18 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations1.18state <- cityStateObservations1.18 %>% count(college_state, sort = TRUE)
+
 
 ```
 
 
-```{r}
-groupByDate <- group_by(FullclimateData, month_year_collected)
-summarise_all(groupByDate, funs(mean))
-
-```
 
 
 ```{r}
