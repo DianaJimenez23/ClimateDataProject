@@ -217,14 +217,34 @@ cityStateObservations1.18state <- cityStateObservations1.18 %>% count(college_st
 ```
 
 ```{r}
+CityStateObservations <- FullClimateData %>% select(month_year_collected, city_location_of_institution, college_state)
+
 #Frequency of state
+StateObservations <- CityStateObservations %>% count(city_location_of_institution, sort = TRUE)
+
+#By date interval
 stateObservation <- rbind(cityStateObservations1.18state, cityStateObservations4.18state, cityStateObservations7.18state, cityStateObservations10.18state, cityStateObservations2.19state, cityStateObservations4.19state, cityStateObservations7.19state, cityStateObservations1.20state, cityStateObservations4.20state, cityStateObservations7.20state, cityStateObservations10.20state, cityStateObservations1.21state, cityStateObservations4.21state, cityStateObservations7.21state)
-view(stateObservation)
+
+#On average, a state shows up ~2 times given the respective time intervals
+mean(stateObservation$n)
+#One standard deviation away from average is approximately 1
+sd(stateObservation$n)
+#Anything above one standard deviation (n >= 3) will be featured in graph
 
 
+
+#Frequency of city
+CityObservations <- CityStateObservations %>% count(city_location_of_institution, sort = TRUE)
+
+#By date interval
 cityObservation <- rbind(cityStateObservations1.18city, cityStateObservations4.18city, cityStateObservations7.18city, cityStateObservations10.18city, cityStateObservations2.19city, cityStateObservations4.19city, cityStateObservations7.19city, cityStateObservations1.20city, cityStateObservations4.20city, cityStateObservations7.20city, cityStateObservations10.20city, cityStateObservations1.21city, cityStateObservations4.21city, cityStateObservations7.21city)
-view(stateObservation)
-view(cityObservation)
+
+#On average, a city shows up ~1 time given the respective time intervals
+mean(cityObservation$n)
+#One standard deviation away from average is approximately 1
+sd(cityObservation$n)
+#Anything above one standard deviation (n > 1) will be featured in graph
+
 ```
 
 
