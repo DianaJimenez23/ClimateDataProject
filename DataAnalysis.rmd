@@ -120,92 +120,92 @@ write.xlsx(unique(FullClimateData[c("month_year_collected")]), file = "uniquedat
 
 cityStateObservations7.21 <- filter(FullClimateData, month_year_collected == as.Date("2021-07-26")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations7.21 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations7.21 %>% count(college_state, sort = TRUE)
+cityStateObservations7.21city <- cityStateObservations7.21 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations7.21state <- cityStateObservations7.21 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations4.21 <- filter(FullClimateData, month_year_collected == as.Date("2021-04-26")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations4.21 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations4.21 %>% count(college_state, sort = TRUE)
+cityStateObservations4.21city <- cityStateObservations4.21 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations4.21state <- cityStateObservations4.21 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations1.21 <- filter(FullClimateData, month_year_collected == as.Date("2021-01-25")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations1.21 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations1.21 %>% count(college_state, sort = TRUE)
+cityStateObservations1.21city <- cityStateObservations1.21 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations1.21state <- cityStateObservations1.21 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations10.20 <- filter(FullClimateData, month_year_collected == as.Date("2020-10-19")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations10.20 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations10.20 %>% count(college_state, sort = TRUE)
+cityStateObservations10.20city <- cityStateObservations10.20 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations10.20state <- cityStateObservations10.20 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations7.20 <- filter(FullClimateData, month_year_collected == as.Date("2020-7-27")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations7.20 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations7.20 %>% count(college_state, sort = TRUE)
+cityStateObservations7.20city <- cityStateObservations7.20 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations7.20state <- cityStateObservations7.20 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations4.20 <- filter(FullClimateData, month_year_collected == as.Date("2020-4-27")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations4.20 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations4.20 %>% count(college_state, sort = TRUE)
+cityStateObservations4.20city <- cityStateObservations4.20 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations4.20state <- cityStateObservations4.20 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations1.20 <- filter(FullClimateData, month_year_collected == as.Date("2020-1-27")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations1.20 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations1.20 %>% count(college_state, sort = TRUE)
+cityStateObservations1.20city <- cityStateObservations1.20 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations1.20state <- cityStateObservations1.20 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations7.19 <- filter(FullClimateData, month_year_collected == as.Date("2019-7-29")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations7.19 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations7.19 %>% count(college_state, sort = TRUE)
+cityStateObservations7.19city <- cityStateObservations7.19 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations7.19state <- cityStateObservations7.19 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations4.19 <- filter(FullClimateData, month_year_collected == as.Date("2019-4-22")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations4.19 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations4.19 %>% count(college_state, sort = TRUE)
+cityStateObservations4.19city <- cityStateObservations4.19 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations4.19state <- cityStateObservations4.19 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations2.19 <- filter(FullClimateData, month_year_collected == as.Date("2019-2-5")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations2.19 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations2.19 %>% count(college_state, sort = TRUE)
+cityStateObservations2.19city <- cityStateObservations2.19 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations2.19state <- cityStateObservations2.19 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations10.18 <- filter(FullClimateData, month_year_collected == as.Date("2018-10-29")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations10.18 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations10.18 %>% count(college_state, sort = TRUE)
+cityStateObservations10.18city <- cityStateObservations10.18 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations10.18state <- cityStateObservations10.18 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations7.18 <- filter(FullClimateData, month_year_collected == as.Date("2018-7-23")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
-cityStateObservations7.18 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations7.18 %>% count(college_state, sort = TRUE)
+cityStateObservations7.18city <- cityStateObservations7.18 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations7.18state <- cityStateObservations7.18 %>% count(college_state, sort = TRUE)
 
 
 
 cityStateObservations4.18 <- filter(FullClimateData, month_year_collected == as.Date("2018-4-25")) %>% select(month_year_collected, city_location_of_institution, college_state)
 
 cityStateObservations4.18city <- cityStateObservations4.18 %>% count(city_location_of_institution, sort = TRUE)
-cityStateObservations4.18 %>% count(college_state, sort = TRUE)
+cityStateObservations4.18state <- cityStateObservations4.18 %>% count(college_state, sort = TRUE)
 
 
 
@@ -214,7 +214,17 @@ cityStateObservations1.18 <- filter(FullClimateData, month_year_collected == as.
 cityStateObservations1.18city <- cityStateObservations1.18 %>% count(city_location_of_institution, sort = TRUE)
 cityStateObservations1.18state <- cityStateObservations1.18 %>% count(college_state, sort = TRUE)
 
+```
 
+```{r}
+#Frequency of state
+stateObservation <- rbind(cityStateObservations1.18state, cityStateObservations4.18state, cityStateObservations7.18state, cityStateObservations10.18state, cityStateObservations2.19state, cityStateObservations4.19state, cityStateObservations7.19state, cityStateObservations1.20state, cityStateObservations4.20state, cityStateObservations7.20state, cityStateObservations10.20state, cityStateObservations1.21state, cityStateObservations4.21state, cityStateObservations7.21state)
+view(stateObservation)
+
+
+cityObservation <- rbind(cityStateObservations1.18city, cityStateObservations4.18city, cityStateObservations7.18city, cityStateObservations10.18city, cityStateObservations2.19city, cityStateObservations4.19city, cityStateObservations7.19city, cityStateObservations1.20city, cityStateObservations4.20city, cityStateObservations7.20city, cityStateObservations10.20city, cityStateObservations1.21city, cityStateObservations4.21city, cityStateObservations7.21city)
+view(stateObservation)
+view(cityObservation)
 ```
 
 
