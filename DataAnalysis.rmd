@@ -19,47 +19,29 @@ library(tidyverse)
 library(janitor)
 library(lubridate)
 
-FullclimateData <- read_csv("FullclimateData.csv")
-FullclimateData <- clean_names(FullclimateData)
+FullClimateData <- read_csv("FullclimateData.csv")
+FullClimateData <- clean_names(FullClimateData)
 
-View(FullclimateData)
-
-FullclimateData$month_year_collected <- as.Date(FullclimateData$month_year_collected, format = "%m/%d/%Y")
-
-
+FullClimateData$month_year_collected <- as.Date(FullClimateData$month_year_collected, format = "%m/%d/%Y")
 ```
 
-```{r}
-#finding distinct colleges in dataset
-#unique(climateData[c("college_name")])
-
-#creating excel file
-# library("xlsx")
-# write.xlsx(unique(FullclimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "UNIQUE COLLEGES", append = FALSE)
-```
-
-```{r}
-#distinct colleges in dataset
-library("xlsx")
-write.xlsx(unique(FullclimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "uniqueColleges", append = FALSE)
-
-```
 
 ```{r}
 #partitioning columns
-FullclimateData$wind <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Wind',x))))
-FullclimateData$solar <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Solar',x))))
-FullclimateData$Biomas <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Biomas',x))))
-FullclimateData$Biogas <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Biogas',x))))
-FullclimateData$SmallHydro <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Small-hydro',x))))
-FullclimateData$Geothermal <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Geothermal',x))))
-FullclimateData$Various <- apply(FullclimateData, 1, function(x)as.integer(any(grep('Various',x))))
-View(FullclimateData)
+FullClimateData$wind <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Wind',x))))
+FullClimateData$solar <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Solar',x))))
+FullClimateData$Biomas <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Biomas',x))))
+FullClimateData$Biogas <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Biogas',x))))
+FullClimateData$SmallHydro <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Small-hydro',x))))
+FullClimateData$Geothermal <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Geothermal',x))))
+FullClimateData$Various <- apply(FullClimateData, 1, function(x)as.integer(any(grep('Various',x))))
+
+View(FullClimateData)
 
 ```
 
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 #map of rank for the top 30 in July 2021
 climate <- st_as_sf(FullClimateData, coords = c("long", "lat"),  crs = 4326)
 mapview(
@@ -78,11 +60,18 @@ mapview(
 ```
 
 ```{r}
-top5 <- filter(FullclimateData, college_name == "University of California" | college_name =="Arizona State University" | college_name == "Columbia University" | college_name =="University at Buffalo, The State University of New York" | college_name== "Boston University")
+#Rank Anaylsis - Abby
+top5 <- filter(FullClimateData, college_name == "University of California" | college_name =="Arizona State University" | college_name == "Columbia University" | college_name =="University at Buffalo, The State University of New York" | college_name== "Boston University")
 
-top10 <- filter(FullclimateData, college_name == "Stanford University" | college_name =="University of Maryland" | college_name == "Georgetown University" | college_name =="University of Utah" | college_name== "Carnegie Mellon University")
+top10 <- filter(FullClimateData, college_name == "Stanford University" | college_name =="University of Maryland" | college_name == "Georgetown University" | college_name =="University of Utah" | college_name== "Carnegie Mellon University")
 
-top15 <- filter(FullclimateData, college_name == "Saint Louis University" | college_name =="University of Oklahoma" | college_name == "Northeastern University" | college_name =="Northwestern University" | college_name== "The Ohio State University")
+top15 <- filter(FullClimateData, college_name == "Saint Louis University" | college_name =="University of Oklahoma" | college_name == "Northeastern University" | college_name =="Northwestern University" | college_name== "The Ohio State University")
+
+top20 <- filter(FullClimateData,  college_name =="Oklahoma State University" | college_name == "University of North Texas" | college_name == "George Washington University" | college_name =="University of Missouri" | college_name== "Ohio University")
+
+top25 <- filter(FullClimateData,  college_name =="Rochester Institute of Technology" | college_name == "University of Minnesota" | college_name == "University of Virginia" | college_name =="University of Vermont" | college_name== "Tarrant County College District")
+
+top30 <- filter(FullClimateData,  college_name =="Southern Illinois University Edwardsville" | college_name == "Temple University" | college_name == "City Colleges of Chicago" | college_name =="University of Wisconsin" | college_name== "American University")
 
 ggplot(top5, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
   geom_line() +labs(title = "Top 5 Colleges in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
@@ -93,31 +82,181 @@ ggplot(top10, aes(x = factor(month_year_collected), y = rank, colour = college_n
 ggplot(top15, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
   geom_line() +labs(title = "Colleges ranked 11-15 in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
 
+ggplot(top20, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 16-20 in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
+
+ggplot(top25, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 21-25 in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
+
+ggplot(top30, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 25-30 in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
+
 ```
 
 ```{r}
-
-
-#scatterplots between two variables
-
-#hours of sunlight / city
-qplot(x = hours_of_sunlight_per_city, y = city_location_of_institution, data = FullclimateData)
-
-#annual green power usage / average enrollment
-qplot(x = annual_green_power_usage_k_wh, y = average_enrollment_from_2020_2018, data = FullclimateData)
+ggplot(top5, aes(x = factor(month_year_collected), y = rank, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Top 5 Colleges in July 2021 and their Ranks Over Time", x = "Month and Year", y = "Rank") + theme(axis.text.x = element_text(angle = 270))
 ```
+
+
 
 
 ```{r}
-#correlation tests
+#distinct colleges in dataset
+library("xlsx")
+write.xlsx(unique(FullClimateData[c("college_name")]), file = "uniquecolleges.xlsx", sheetName = "uniqueColleges", append = FALSE)
 
-#rank / average enrollment
-cor.test(FullclimateData$rank, FullclimateData$average_enrollment_from_2020_2018, method = 'spearman')
-
-#annual green power usage / average enrollment
-cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$average_enrollment_from_2020_2018, method = 'spearman')
-
-#annual green power usage / rank
-cor.test(FullclimateData$annual_green_power_usage_k_wh, FullclimateData$rank, method = 'spearman')
 ```
+
+```{r}
+#distinct dates in dataset
+library("xlsx")
+write.xlsx(unique(FullClimateData[c("month_year_collected")]), file = "uniquedates.xlsx", sheetName = "uniqueDates", append = FALSE)
+
+```
+
+```{r}
+#Frequency of each state and city in each time interval
+
+cityStateObservations7.21 <- filter(FullClimateData, month_year_collected == as.Date("2021-07-26")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations7.21city <- cityStateObservations7.21 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations7.21state <- cityStateObservations7.21 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations4.21 <- filter(FullClimateData, month_year_collected == as.Date("2021-04-26")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations4.21city <- cityStateObservations4.21 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations4.21state <- cityStateObservations4.21 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations1.21 <- filter(FullClimateData, month_year_collected == as.Date("2021-01-25")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations1.21city <- cityStateObservations1.21 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations1.21state <- cityStateObservations1.21 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations10.20 <- filter(FullClimateData, month_year_collected == as.Date("2020-10-19")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations10.20city <- cityStateObservations10.20 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations10.20state <- cityStateObservations10.20 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations7.20 <- filter(FullClimateData, month_year_collected == as.Date("2020-7-27")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations7.20city <- cityStateObservations7.20 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations7.20state <- cityStateObservations7.20 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations4.20 <- filter(FullClimateData, month_year_collected == as.Date("2020-4-27")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations4.20city <- cityStateObservations4.20 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations4.20state <- cityStateObservations4.20 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations1.20 <- filter(FullClimateData, month_year_collected == as.Date("2020-1-27")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations1.20city <- cityStateObservations1.20 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations1.20state <- cityStateObservations1.20 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations7.19 <- filter(FullClimateData, month_year_collected == as.Date("2019-7-29")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations7.19city <- cityStateObservations7.19 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations7.19state <- cityStateObservations7.19 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations4.19 <- filter(FullClimateData, month_year_collected == as.Date("2019-4-22")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations4.19city <- cityStateObservations4.19 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations4.19state <- cityStateObservations4.19 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations2.19 <- filter(FullClimateData, month_year_collected == as.Date("2019-2-5")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations2.19city <- cityStateObservations2.19 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations2.19state <- cityStateObservations2.19 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations10.18 <- filter(FullClimateData, month_year_collected == as.Date("2018-10-29")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations10.18city <- cityStateObservations10.18 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations10.18state <- cityStateObservations10.18 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations7.18 <- filter(FullClimateData, month_year_collected == as.Date("2018-7-23")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations7.18city <- cityStateObservations7.18 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations7.18state <- cityStateObservations7.18 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations4.18 <- filter(FullClimateData, month_year_collected == as.Date("2018-4-25")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations4.18city <- cityStateObservations4.18 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations4.18state <- cityStateObservations4.18 %>% count(college_state, sort = TRUE)
+
+
+
+cityStateObservations1.18 <- filter(FullClimateData, month_year_collected == as.Date("2018-1-22")) %>% select(month_year_collected, city_location_of_institution, college_state)
+
+cityStateObservations1.18city <- cityStateObservations1.18 %>% count(city_location_of_institution, sort = TRUE)
+cityStateObservations1.18state <- cityStateObservations1.18 %>% count(college_state, sort = TRUE)
+
+```
+
+```{r}
+CityStateObservations <- FullClimateData %>% select(month_year_collected, city_location_of_institution, college_state)
+
+#Frequency of state
+StateObservations <- CityStateObservations %>% count(city_location_of_institution, sort = TRUE)
+
+#By date interval
+stateObservation <- rbind(cityStateObservations1.18state, cityStateObservations4.18state, cityStateObservations7.18state, cityStateObservations10.18state, cityStateObservations2.19state, cityStateObservations4.19state, cityStateObservations7.19state, cityStateObservations1.20state, cityStateObservations4.20state, cityStateObservations7.20state, cityStateObservations10.20state, cityStateObservations1.21state, cityStateObservations4.21state, cityStateObservations7.21state)
+
+#On average, a state shows up ~2 times given the respective time intervals
+mean(stateObservation$n)
+#One standard deviation away from average is approximately 1
+sd(stateObservation$n)
+#Anything above one standard deviation (n >= 3) will be featured in graph
+
+
+
+#Frequency of city
+CityObservations <- CityStateObservations %>% count(city_location_of_institution, sort = TRUE)
+
+#By date interval
+cityObservation <- rbind(cityStateObservations1.18city, cityStateObservations4.18city, cityStateObservations7.18city, cityStateObservations10.18city, cityStateObservations2.19city, cityStateObservations4.19city, cityStateObservations7.19city, cityStateObservations1.20city, cityStateObservations4.20city, cityStateObservations7.20city, cityStateObservations10.20city, cityStateObservations1.21city, cityStateObservations4.21city, cityStateObservations7.21city)
+
+#On average, a city shows up ~1 time given the respective time intervals
+mean(cityObservation$n)
+#One standard deviation away from average is approximately 1
+sd(cityObservation$n)
+#Anything above one standard deviation (n > 1) will be featured in graph
+
+```
+
+
+
+
+```{r}
+#quantitative predictive model
+
+ClimateTest1 <- lm(formula = rank ~ average_enrollment_from_2020_2018 + annual_green_power_usage_k_wh + gp_percent_total_energy_use + Various, data = FullClimateData)
+#summary1
+summary(ClimateTest1)
+
+```
+
 
