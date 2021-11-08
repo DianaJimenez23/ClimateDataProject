@@ -253,9 +253,16 @@ sd(cityObservation$n)
 ```{r}
 #quantitative predictive model
 
-ClimateTest1 <- lm(formula = rank ~ average_enrollment_from_2020_2018 + annual_green_power_usage_k_wh + gp_percent_total_energy_use + Various, data = FullClimateData)
+ClimateTest1 <- lm(formula = rank ~ annual_green_power_usage_k_wh + gp_percent_total_energy_use + Various + lat, data = FullClimateData)
 #summary1
 summary(ClimateTest1)
+BIC(ClimateTest1)
+plot(ClimateTest1)
+vif(ClimateTest1)
+
+
+```
+```{r}
 
 ```
 
