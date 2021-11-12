@@ -247,44 +247,24 @@ sd(cityObservation$n)
 #Anything above one standard deviation (n > 1) will be featured in graph
 
 ```
-```{r}
-#Tests for some remaining combinations of variables-Devon
-cor(annual_green_power_usage_k_wh~hours_of_sunlight_per_city,data=filter(FullClimateData,green_power_resources=="Solar, Wind"|green_power_resources=="Solar,Wind"|green_power_resources=="Solar,wind"))
-#Percent of total energy vs. sunlight hours (or latitute)
-cor(gp_percent_total_energy_use~lat,data=filter(na.omit(FullClimateData),green_power_resources=="Solar"))
-gf_point(gp_percent_total_energy_use~lat,data=filter(na.omit(FullClimateData),green_power_resources=="Solar"))
-cor(gp_percent_total_energy_use~hours_of_sunlight_per_city,data=filter(na.omit(FullClimateData),green_power_resources=="Solar"))
-gf_point(gp_percent_total_energy_use~hours_of_sunlight_per_city,data=filter(na.omit(FullClimateData),green_power_resources=="Solar"))
-
-
-```
-```{r}
-ggplot(top5, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
-  geom_line() +labs(title = "Top 5 Colleges in July 2021 and their Green Energy Percentage Over Time", x = "Month and Year", y = "Percentage of Energy Use") + theme(axis.text.x = element_text(angle = 270))
-
-ggplot(top10, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
-  geom_line() +labs(title = "Colleges ranked 6-10 in July 2021 and their Green Energy Percentage Over Time", x = "Month and Year", y = "Percentage of Energy Use") + theme(axis.text.x = element_text(angle = 270))
-
-ggplot(top15, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
-  geom_line() +labs(title = "Colleges ranked 11-15 in July 2021 and their Green Energy Percentage Over Time", x = "Month and Year", y = "Percentage of Energy Use") + theme(axis.text.x = element_text(angle = 270))
-
-ggplot(top20, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
-  geom_line() +labs(title = "Colleges ranked 16-20 in July 2021 and their Green Energy Percentage Over Time", x = "Month and Year", y = "Percentage of Energy Use") + theme(axis.text.x = element_text(angle = 270))
-
-ggplot(top25, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
-  geom_line() +labs(title = "Colleges ranked 21-25 in July 2021 and their Green Energy Percentage Over Time", x = "Month and Year", y = "Percentage of Energy Use") + theme(axis.text.x = element_text(angle = 270))
-
-ggplot(top30, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
-  geom_line() +labs(title = "Colleges ranked 25-30 in July 2021 and their Green Energy Percentage Over Time", x = "Month and Year", y = "Percentage of Energy Use") + theme(axis.text.x = element_text(angle = 270))
-```
-
 
 ```{r}
 #quantitative predictive model
 
+<<<<<<< HEAD
 ClimateTest1 <- lm(formula = rank ~ average_enrollment_from_2020_2018 + annual_green_power_usage_k_wh + gp_percent_total_energy_use + green_power_resources, data = FullClimateData)
+=======
+ClimateTest1 <- lm(formula = rank ~ annual_green_power_usage_k_wh + gp_percent_total_energy_use + Various + lat, data = FullClimateData)
+>>>>>>> f2518bea16fbd4ff6a999963060d17eff7cc44e8
 #summary1
 summary(ClimateTest1)
+BIC(ClimateTest1)
+plot(ClimateTest1)
+vif(ClimateTest1)
+
+
+```
+```{r}
 
 ```
 
