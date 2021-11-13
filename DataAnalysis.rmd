@@ -248,6 +248,33 @@ sd(cityObservation$n)
 
 ```
 
+```{r} 
+#Sunlight hours analysis for more solar-reliant colleges -Devon
+#solar-only colleges
+cor.test(filter(na.omit(FullClimateData),green_power_resources=="Solar")$gp_percent_total_energy_use,filter(na.omit(FullClimateData),green_power_resources=="Solar")$hours_of_sunlight_per_city,method='spearman')
+cor(gp_percent_total_energy_use~hours_of_sunlight_per_city,data=filter(na.omit(FullClimateData),green_power_resources=="Solar"))
+gf_point(gp_percent_total_energy_use~hours_of_sunlight_per_city,data=filter(na.omit(FullClimateData),green_power_resources=="Solar"))%>%gf_smooth()
+#solely solar-and-wind-reliant colleges
+cor.test(filter(na.omit(FullClimateData),green_power_resources=="Solar, wind"|green_power_resources=="Solar, Wind"|green_power_resources=="Solar,Wind")$gp_percent_total_energy_use,filter(na.omit(FullClimateData),green_power_resources=="Solar, wind"|green_power_resources=="Solar, Wind"|green_power_resources=="Solar,Wind")$hours_of_sunlight_per_city,method='spearman')
+cor(gp_percent_total_energy_use~hours_of_sunlight_per_city,data=filter(na.omit(FullClimateData),green_power_resources=="Solar, wind"|green_power_resources=="Solar, Wind"|green_power_resources=="Solar,Wind"))
+gf_point(gp_percent_total_energy_use~hours_of_sunlight_per_city,data=filter(na.omit(FullClimateData),green_power_resources=="Solar, wind"|green_power_resources=="Solar, Wind"|green_power_resources=="Solar,Wind"))%>%gf_smooth()
+
+```
+```{r}
+ggplot(top5, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Top 5 Colleges in July 2021 and their change in Greenness Over Time", x = "Month and Year", y = "Percentage Green Energy") + theme(axis.text.x = element_text(angle = 270))
+ggplot(top10, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges Ranked 6-10 in July 2021 and their change in Greenness Over Time", x = "Month and Year", y = "Percentage Green Energy") + theme(axis.text.x = element_text(angle = 270))
+ggplot(top15, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 11-15 in July 2021 and their change in Greenness Over Time", x = "Month and Year", y = "Percentage Green Energy") + theme(axis.text.x = element_text(angle = 270))
+ggplot(top20, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 16-20 in July 2021 and their change in Greenness Over Time", x = "Month and Year", y = "Percentage Green Energy") + theme(axis.text.x = element_text(angle = 270))
+ggplot(top25, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 21-25 in July 2021 and their change in Greenness Over Time", x = "Month and Year", y = "Percentage Green Energy") + theme(axis.text.x = element_text(angle = 270))
+ggplot(top30, aes(x = factor(month_year_collected), y = gp_percent_total_energy_use, colour = college_name, group = college_name))+
+  geom_line() +labs(title = "Colleges ranked 25-30 in July 2021 and their change in Greenness Over Time", x = "Month and Year", y = "Percentage Green Energy") + theme(axis.text.x = element_text(angle = 270))
+```
+
 ```{r}
 #quantitative predictive model
 
